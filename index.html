@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Golden Agents DH2020 Demo</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- some styling -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- import Mirador -->
+  <script src="js/mirador.min.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Golden Agents DH2020 demo</h1>
+
+    <p>
+      Presented at DH2020v, 20-24 July 2020. <br />
+      Accompanying paper: <a href="" class="external">'The Montias Case: an experiment with
+        data reconciliation and provenance between research and cultural heritage institutions'</a>
+    </p>
+
+    <h3>Authors</h3>
+    <ul class="contributors">
+      <li><strong><a href="https://orcid.org/0000-0001-8672-025X">Leon van Wissen</a></strong> <a
+          href="https://orcid.org/0000-0001-8672-025X"><img
+            src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD"></a>, <a
+          href="https://www.uva.nl/"><em>University of Amsterdam</em></a></li>
+      <li><strong><a href="https://orcid.org/0000-0002-8706-0078">Chiara Latronico</a></strong> <a
+          href="https://orcid.org/0000-0002-8706-0078"><img
+            src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD"></a>, <a
+          href="https://www.uva.nl/"><em>University of Amsterdam</em></a></li>
+      <li><strong><a href="https://orcid.org/0000-0001-6785-0809">Sandra van Ginhoven</a></strong> <a
+          href="https://orcid.org/0000-0001-6785-0809"><img
+            src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD"></a>, <a
+          href="http://www.getty.edu/"><em>J. Paul Getty Trust</em></a></li>
+      <li><strong><a href="https://orcid.org/0000-0003-3425-0481">Veruska Zamborlini</a></strong> <a
+          href="https://orcid.org/0000-0003-3425-0481"><img
+            src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD"></a>, <a
+          href="https://www.uva.nl/"><em>University of Amsterdam</em></a></li>
+    </ul>
+    <p>
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+        <img alt="Creative Commons License" style="border-width:0"
+          src="https://licensebuttons.net/l/by-sa/4.0/88x31.png">
+      </a>
+      <br>
+      This demo is developed by <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.goldenagents.org/"
+        class="external" property="cc:attributionName" rel="cc:attributionURL">Golden Agents</a> and is licensed under a
+      <a rel="license" class="external" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA 4.0
+        International
+        License</a>.
+      <br>
+      Source code for this demo can be found in this repository: <a href="" class="external">https://example.com</a></p>
+  </div>
+
+  <hr>
+  <div id="body">
+    <h2>Demo</h2>
+    <p>N.B.: Using a RC version of <a href="" class="external">Mirador 3</a>.
+      Images served as static (image API level 0). You can try the
+      <a href="" class="external">manifest.json</a> in any viewer that supports
+      annotations and the iiif Prezi 3.0 framework.</p>
+    <div id="mirador"></div>
+  </div>
+
+  <script type="text/javascript">
+    // Just took the Glitch example and modified it: https://glitch.com/edit/#!/mirador-start
+
+    const mirador = Mirador.viewer({
+      id: "mirador",
+      windows: [{
+        manifestId: 'iiif/manifest.json'
+      }],
+      window: {
+        panels: { // Configure which panels are visible in WindowSideBarButtons
+          info: true,
+          attribution: true,
+          canvas: true,
+          annotations: true,
+          search: true
+        },
+        allowClose: false,
+        allowMaximize: false,
+        sideBarOpen: true,
+        sideBarPanel: 'annotations',
+        // defaultSidebarPanelWidth: 535,
+        highlightAllAnnotations: true,
+      },
+      workspaceControlPanel: {
+        enabled: false,
+      },
+      annotations: {
+        htmlSanitizationRuleSet: 'iiif', // See src/lib/htmlRules.js for acceptable values
+        filteredMotivations: ['oa:commenting', 'oa:tagging', 'sc:painting', 'commenting', 'tagging',
+          'supplementing'
+        ],
+      },
+
+      // All of the settings (with descriptions (ﾉ^∇^)ﾉﾟ) located here:
+      // https://github.com/ProjectMirador/mirador/blob/master/src/config/settings.js
+    });
+  </script>
+
+
+
+</body>
+
+</html>
