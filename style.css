@@ -2,7 +2,6 @@
 
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
 }
 
 h1, h2 {
@@ -11,6 +10,10 @@ h1, h2 {
 
 h3, h4, h5, h6 {
   color: black;
+}
+
+.header, .body {
+  margin: 2em;
 }
 
 a:link, a:visited, a:hover, a:active {
