@@ -233,23 +233,38 @@ def getCanvas(imagepath: str,
                               imagepath=imagepath,
                               motivation='painting')
         ],
-        "annotations": [
-            getAnnotationPage(
-                target=canvasid,
-                baseFilename=baseFilename,
-                motivation='commenting',
-                annopageid=f'iiif/annotations/{baseFilename}-index.json',
-                nameslocations=nameslocations,
-                embedded=False),
-            getAnnotationPage(
-                target=canvasid,
-                motivation='supplementing',
-                annopageid=f'iiif/annotations/{baseFilename}-htr.json',
-                annotationpath=annotationpath,
-                embedded=False)
-        ],
+        "annotations": [],
         "metadata": []
     }
+
+    annotations = []
+
+    # index data
+    if nameslocations:
+
+        ap = getAnnotationPage(
+            target=canvasid,
+            baseFilename=baseFilename,
+            motivation='commenting',
+            annopageid=f'iiif/annotations/{baseFilename}-index.json',
+            nameslocations=nameslocations,
+            embedded=False)
+
+        annotations.append(ap)
+
+    # htr data
+    if annotationpath:
+
+        ap = getAnnotationPage(
+            target=canvasid,
+            motivation='supplementing',
+            annopageid=f'iiif/annotations/{baseFilename}-htr.json',
+            annotationpath=annotationpath,
+            embedded=False)
+
+        annotations.append(ap)
+
+    canvas['annotations'] = annotations
 
     canvas['width'] = canvas['items'][0]['items'][0]['body']['width']
     canvas['height'] = canvas['items'][0]['items'][0]['body']['height']
