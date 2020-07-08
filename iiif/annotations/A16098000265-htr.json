@@ -1,0 +1,47 @@
+{
+ "@context": "http://iiif.io/api/presentation/3/context.json",
+ "id": "iiif/annotations/A16098000265-htr.json",
+ "type": "AnnotationPage",
+ "items": [
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000265/r1l2",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Winter"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000265",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 1061,416 L 1086,415 L 1111,415 L 1136,413 L 1161,412 L 1186,412 L 1211,410 L 1236,410 L 1261,410 L 1286,409 L 1311,409 L 1336,409 L 1361,409 L 1386,409 L 1411,410 L 1436,410 L 1461,412 L 1487,413 L 1487,263 L 1461,262 L 1436,260 L 1411,260 L 1386,259 L 1361,259 L 1336,259 L 1311,259 L 1286,259 L 1261,260 L 1236,260 L 1211,260 L 1186,262 L 1161,262 L 1136,263 L 1111,265 L 1086,265 L 1061,266 L 1061,416 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000265/r1l3",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Inventarissen"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000265",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 669,755 L 705,747 L 742,740 L 778,736 L 815,732 L 851,729 L 888,728 L 924,727 L 961,727 L 997,728 L 1034,728 L 1071,731 L 1107,731 L 1144,733 L 1180,734 L 1217,736 L 1253,736 L 1290,736 L 1326,735 L 1363,734 L 1400,730 L 1400,580 L 1363,584 L 1326,585 L 1290,586 L 1253,586 L 1217,586 L 1180,584 L 1144,583 L 1107,581 L 1071,581 L 1034,578 L 997,578 L 961,577 L 924,577 L 888,578 L 851,579 L 815,582 L 778,586 L 742,590 L 705,597 L 669,605 L 669,755 Z\"/></svg>"
+    }
+   }
+  }
+ ]
+}

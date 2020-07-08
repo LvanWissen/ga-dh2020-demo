@@ -15,15 +15,20 @@ nsAnnotationPage = Namespace(
 nsAnno = Namespace("https://data.goldenagents.org/datasets/dh2020/annotation/")
 
 
-def main(imagefolder: str, annotationfolder: str = None):
+def main(imagefolder: str,
+         annotationfolder: str = None,
+         nameslocationsfile: str = None):
 
-    manifest = createManifest(imagefolder, annotationfolder)
+    manifest = createManifest(imagefolder, annotationfolder,
+                              nameslocationsfile)
 
     with open('iiif/manifest.json', 'w') as outfile:
         json.dump(manifest, outfile, indent=2)
 
 
-def createManifest(imagefolder: str, annotationfolder: str = None):
+def createManifest(imagefolder: str,
+                   annotationfolder: str = None,
+                   nameslocationsfile: str = None):
 
     manifest = {
         "@context": [
@@ -142,11 +147,11 @@ def createManifest(imagefolder: str, annotationfolder: str = None):
             "format": "text/html"
         }],
         "logo": [{
-            "id": "images/logo-golden-agents.png",
+            "id": "assets/img/logo-golden-agents.png",
             "type": "Image"
         }],
         "thumbnail": [{
-            "id": "images/logo-golden-agents.png"
+            "id": "assets/img/logo-golden-agents.png"
         }],
         "requiredStatement": {
             "label": {
@@ -170,11 +175,18 @@ def createManifest(imagefolder: str, annotationfolder: str = None):
 
     items = []
 
+    if nameslocationsfile:
+        with open(nameslocationsfile) as infile:
+            nameslocationsdata = json.load(infile)
+    else:
+        nameslocationsdata = dict()
+
     for fn in sorted(os.listdir(imagefolder)):
         imagepath = os.path.join(imagefolder, fn)
 
         baseFilename, ext = os.path.splitext(fn)
 
+        # HTR annotations
         if annotationfolder:
             annotationpath = os.path.join(annotationfolder,
                                           baseFilename + '.json')
@@ -186,7 +198,10 @@ def createManifest(imagefolder: str, annotationfolder: str = None):
         else:
             annotationpath = None
 
-        canvas = getCanvas(imagepath, annotationpath)
+        # PeronNames and Locations have been selected by AAA
+        nameslocations = nameslocationsdata.get(fn, [])
+
+        canvas = getCanvas(imagepath, annotationpath, nameslocations)
         items.append(canvas)
 
     manifest["items"] = items
@@ -196,6 +211,7 @@ def createManifest(imagefolder: str, annotationfolder: str = None):
 
 def getCanvas(imagepath: str,
               annotationpath: str = None,
+              nameslocations: list = None,
               canvasid: str = None) -> dict:
 
     _, filename = os.path.split(imagepath)
@@ -220,11 +236,18 @@ def getCanvas(imagepath: str,
         "annotations": [
             getAnnotationPage(
                 target=canvasid,
+                baseFilename=baseFilename,
+                motivation='commenting',
+                annopageid=f'iiif/annotations/{baseFilename}-index.json',
+                nameslocations=nameslocations,
+                embedded=False),
+            getAnnotationPage(
+                target=canvasid,
                 motivation='supplementing',
-                annopageid=f'iiif/annotations/{baseFilename}.json',
+                annopageid=f'iiif/annotations/{baseFilename}-htr.json',
                 annotationpath=annotationpath,
                 embedded=False)
-        ] if annotationpath else [],
+        ],
         "metadata": []
     }
 
@@ -235,10 +258,12 @@ def getCanvas(imagepath: str,
 
 
 def getAnnotationPage(target: Union[str, URIRef],
+                      baseFilename: str = None,
                       imagepath: str = None,
                       motivation: str = 'painting',
                       annopageid: str = None,
                       annotationpath: str = None,
+                      nameslocations: list = None,
                       embedded: bool = True) -> dict:
 
     if annopageid is None and imagepath:
@@ -252,7 +277,7 @@ def getAnnotationPage(target: Union[str, URIRef],
     elif annotationpath:
         _, filename = os.path.split(annotationpath)
         baseFilename, _ = os.path.splitext(filename)
-    elif annotationpath is None and imagepath is None:
+    elif annotationpath is None and imagepath is None and nameslocations is None:
         return {}
 
     annotationPage = {
@@ -307,6 +332,43 @@ def getAnnotationPage(target: Union[str, URIRef],
                         f"{baseFilename}/{a['attributes']['id']}"))
 
                 items.append(anno)
+
+        annotationPage['items'] = items
+
+    # This is data coming from the index in which Persons and Locations have been tagged
+    if nameslocations:
+        items = []
+
+        for n, a in enumerate(nameslocations, 1):
+
+            targetselector = {
+                "id": target,
+                "selector": {
+                    "type": "FragmentSelector",
+                    "value": f"xywh={a['coords']}"
+                }
+            }
+
+            body = [
+                {
+                    "type": "TextualBody",
+                    "language": "nl",
+                    "value": a['label']
+                },
+                {
+                    "type": "TextualBody",
+                    "purpose": "tagging",  # for a nice tag!
+                    "value": a["type"]
+                }
+            ]
+
+            anno = getAnnotation(
+                target=targetselector,
+                motivation=motivation,
+                body=body,  # already a list
+                annoid=nsAnno.term(f"{baseFilename}/index{n}"))
+
+            items.append(anno)
 
         annotationPage['items'] = items
 
@@ -400,4 +462,6 @@ def getSVG(coordinates: Union[list, tuple],
 
 
 if __name__ == "__main__":
-    main(imagefolder='images/2408/', annotationfolder='htr/2408/')
+    main(imagefolder='images/2408/',
+         annotationfolder='data/htr/2408/',
+         nameslocationsfile='data/2408_nameslocations.json')

@@ -1,0 +1,87 @@
+{
+ "@context": "http://iiif.io/api/presentation/3/context.json",
+ "id": "iiif/annotations/A16098000029-htr.json",
+ "type": "AnnotationPage",
+ "items": [
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000029/r1l1",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "42"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000029",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 395,358 L 422,362 L 449,364 L 476,365 L 503,365 L 530,364 L 557,364 L 584,362 L 584,212 L 557,214 L 530,214 L 503,215 L 476,215 L 449,214 L 422,212 L 395,208 L 395,358 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000029/r1l2",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Winters"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000029",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 839,397 L 865,395 L 891,392 L 917,391 L 943,391 L 969,389 L 995,388 L 1021,388 L 1047,388 L 1073,387 L 1099,386 L 1125,386 L 1151,386 L 1177,385 L 1203,385 L 1229,383 L 1229,233 L 1203,235 L 1177,235 L 1151,236 L 1125,236 L 1099,236 L 1073,237 L 1047,238 L 1021,238 L 995,238 L 969,239 L 943,241 L 917,241 L 891,242 L 865,245 L 839,247 L 839,397 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000029/r1l3",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Inventarisen"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000029",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 446,1718 L 524,1718 L 603,1720 L 682,1720 L 761,1721 L 840,1721 L 918,1723 L 997,1723 L 1076,1724 L 1155,1724 L 1234,1726 L 1312,1726 L 1391,1727 L 1470,1727 L 1549,1727 L 1628,1729 L 1706,1729 L 1785,1729 L 1864,1729 L 1943,1729 L 2022,1729 L 2022,1579 L 1943,1579 L 1864,1579 L 1785,1579 L 1706,1579 L 1628,1579 L 1549,1577 L 1470,1577 L 1391,1577 L 1312,1576 L 1234,1576 L 1155,1574 L 1076,1574 L 997,1573 L 918,1573 L 840,1571 L 761,1571 L 682,1570 L 603,1570 L 524,1568 L 446,1568 L 446,1718 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000029/r1l4",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "No\u201e 2."
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000029",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 638,2344 L 667,2340 L 696,2337 L 726,2336 L 755,2336 L 785,2336 L 814,2336 L 844,2338 L 873,2340 L 903,2342 L 932,2344 L 961,2346 L 991,2348 L 1020,2350 L 1050,2351 L 1079,2353 L 1109,2353 L 1138,2353 L 1168,2351 L 1197,2349 L 1227,2347 L 1227,2197 L 1197,2199 L 1168,2201 L 1138,2203 L 1109,2203 L 1079,2203 L 1050,2201 L 1020,2200 L 991,2198 L 961,2196 L 932,2194 L 903,2192 L 873,2190 L 844,2188 L 814,2186 L 785,2186 L 755,2186 L 726,2186 L 696,2187 L 667,2190 L 638,2194 L 638,2344 Z\"/></svg>"
+    }
+   }
+  }
+ ]
+}

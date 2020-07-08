@@ -1,0 +1,107 @@
+{
+ "@context": "http://iiif.io/api/presentation/3/context.json",
+ "id": "iiif/annotations/A16098000266-htr.json",
+ "type": "AnnotationPage",
+ "items": [
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000266/r1l1",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Inventarissen"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000266",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 2952,743 L 3001,741 L 3051,741 L 3101,739 L 3151,739 L 3201,737 L 3250,737 L 3300,737 L 3350,735 L 3400,735 L 3450,735 L 3499,735 L 3549,735 L 3599,735 L 3649,737 L 3699,737 L 3748,739 L 3798,740 L 3848,742 L 3898,744 L 3948,747 L 3948,683 L 3898,680 L 3848,678 L 3798,676 L 3748,675 L 3699,673 L 3649,673 L 3599,671 L 3549,671 L 3499,671 L 3450,671 L 3400,671 L 3350,671 L 3300,673 L 3250,673 L 3201,673 L 3151,675 L 3101,675 L 3051,677 L 3001,677 L 2952,679 L 2952,743 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000266/r1l2",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Beginnende den vierentwintichsten april ao\u201e xvjc\u201e"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000266",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 2966,1133 L 3050,1131 L 3134,1130 L 3218,1129 L 3303,1129 L 3387,1129 L 3471,1131 L 3556,1132 L 3640,1134 L 3724,1137 L 3809,1139 L 3893,1142 L 3977,1145 L 4061,1149 L 4146,1151 L 4230,1156 L 4314,1160 L 4399,1163 L 4483,1167 L 4567,1170 L 4652,1173 L 4652,1110 L 4567,1107 L 4483,1104 L 4399,1100 L 4314,1097 L 4230,1093 L 4146,1088 L 4061,1086 L 3977,1082 L 3893,1079 L 3809,1076 L 3724,1074 L 3640,1071 L 3556,1069 L 3471,1068 L 3387,1066 L 3303,1066 L 3218,1066 L 3134,1067 L 3050,1068 L 2966,1070 L 2966,1133 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000266/r1l3",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "sessenvijftigh ende eijndigende den twe\u00ebntwintichsten"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000266",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3216,1213 L 3293,1215 L 3370,1218 L 3447,1220 L 3524,1223 L 3601,1225 L 3678,1227 L 3755,1229 L 3832,1231 L 3909,1233 L 3986,1235 L 4063,1238 L 4140,1241 L 4217,1245 L 4294,1247 L 4371,1251 L 4448,1255 L 4525,1260 L 4602,1264 L 4679,1268 L 4756,1275 L 4756,1212 L 4679,1205 L 4602,1201 L 4525,1197 L 4448,1192 L 4371,1188 L 4294,1184 L 4217,1182 L 4140,1178 L 4063,1175 L 3986,1172 L 3909,1170 L 3832,1168 L 3755,1166 L 3678,1164 L 3601,1162 L 3524,1160 L 3447,1157 L 3370,1155 L 3293,1152 L 3216,1150 L 3216,1213 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000266/r1l4",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "april ao\u201e 1660 / van mij"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000266",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3208,1303 L 3251,1305 L 3295,1306 L 3338,1307 L 3382,1309 L 3425,1309 L 3469,1311 L 3512,1313 L 3556,1313 L 3599,1315 L 3643,1317 L 3686,1319 L 3730,1320 L 3773,1321 L 3817,1323 L 3860,1323 L 3904,1325 L 3947,1327 L 3991,1327 L 4034,1329 L 4078,1329 L 4078,1265 L 4034,1265 L 3991,1263 L 3947,1263 L 3904,1261 L 3860,1259 L 3817,1259 L 3773,1257 L 3730,1256 L 3686,1255 L 3643,1253 L 3599,1251 L 3556,1249 L 3512,1249 L 3469,1247 L 3425,1245 L 3382,1245 L 3338,1243 L 3295,1242 L 3251,1241 L 3208,1239 L 3208,1303 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000266/r1l5",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "J:d.WinterN.P."
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000266",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3522,1585 L 3565,1583 L 3608,1583 L 3651,1583 L 3694,1583 L 3738,1581 L 3781,1579 L 3824,1579 L 3867,1577 L 3910,1577 L 3954,1577 L 3997,1577 L 4040,1577 L 4083,1579 L 4126,1580 L 4170,1583 L 4213,1585 L 4256,1589 L 4299,1594 L 4342,1600 L 4386,1607 L 4386,1543 L 4342,1536 L 4299,1530 L 4256,1525 L 4213,1521 L 4170,1519 L 4126,1516 L 4083,1515 L 4040,1513 L 3997,1513 L 3954,1513 L 3910,1513 L 3867,1513 L 3824,1515 L 3781,1515 L 3738,1517 L 3694,1519 L 3651,1519 L 3608,1519 L 3565,1519 L 3522,1521 L 3522,1585 Z\"/></svg>"
+    }
+   }
+  }
+ ]
+}

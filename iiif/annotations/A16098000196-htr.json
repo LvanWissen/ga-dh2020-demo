@@ -1,0 +1,947 @@
+{
+ "@context": "http://iiif.io/api/presentation/3/context.json",
+ "id": "iiif/annotations/A16098000196-htr.json",
+ "type": "AnnotationPage",
+ "items": [
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r1l1",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "86"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 380,272 L 407,275 L 434,276 L 461,277 L 488,278 L 516,276 L 516,126 L 488,128 L 461,127 L 434,126 L 407,125 L 380,122 L 380,272 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l1",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "kousekoper twaalff gulden xii stuijver \u0192 12\u201e12\u201e"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 830,655 L 909,655 L 988,655 L 1067,655 L 1146,657 L 1226,659 L 1305,659 L 1384,661 L 1463,663 L 1542,665 L 1622,667 L 1701,669 L 1780,672 L 1859,674 L 1938,677 L 2018,680 L 2097,683 L 2176,686 L 2255,691 L 2334,693 L 2414,699 L 2414,594 L 2334,588 L 2255,586 L 2176,581 L 2097,578 L 2018,575 L 1938,572 L 1859,569 L 1780,567 L 1701,564 L 1622,562 L 1542,560 L 1463,558 L 1384,556 L 1305,554 L 1226,554 L 1146,552 L 1067,550 L 988,550 L 909,550 L 830,550 L 830,655 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l2",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Item aan Koert Ulcker vier gulden"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 818,858 L 874,860 L 931,862 L 988,865 L 1044,866 L 1101,868 L 1158,870 L 1214,870 L 1271,872 L 1328,874 L 1385,874 L 1441,875 L 1498,876 L 1555,876 L 1611,878 L 1668,878 L 1725,880 L 1781,881 L 1838,883 L 1895,884 L 1952,886 L 1952,789 L 1895,787 L 1838,786 L 1781,784 L 1725,783 L 1668,781 L 1611,781 L 1555,779 L 1498,779 L 1441,778 L 1385,777 L 1328,777 L 1271,775 L 1214,773 L 1158,773 L 1101,771 L 1044,769 L 988,768 L 931,765 L 874,763 L 818,761 L 818,858 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l3",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "vier stuijvers"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 812,990 L 837,993 L 862,995 L 887,996 L 912,997 L 937,998 L 962,999 L 987,1000 L 1012,1000 L 1037,1002 L 1062,1002 L 1087,1002 L 1112,1002 L 1137,1004 L 1162,1004 L 1187,1004 L 1212,1004 L 1237,1004 L 1262,1003 L 1288,1002 L 1288,905 L 1262,906 L 1237,907 L 1212,907 L 1187,907 L 1162,907 L 1137,907 L 1112,905 L 1087,905 L 1062,905 L 1037,905 L 1012,903 L 987,903 L 962,902 L 937,901 L 912,900 L 887,899 L 862,898 L 837,896 L 812,893 L 812,990 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l4",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "\u0192"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 1892,1043 L 1920,1049 L 1948,1055 L 1976,1057 L 2004,1045 L 2004,940 L 1976,952 L 1948,950 L 1920,944 L 1892,938 L 1892,1043 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l5",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "4\u201e 4\u201e"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 2020,1075 L 2046,1075 L 2072,1075 L 2098,1075 L 2124,1073 L 2150,1072 L 2176,1070 L 2202,1068 L 2229,1066 L 2255,1064 L 2281,1062 L 2307,1060 L 2333,1058 L 2359,1056 L 2385,1054 L 2412,1053 L 2412,948 L 2385,949 L 2359,951 L 2333,953 L 2307,955 L 2281,957 L 2255,959 L 2229,961 L 2202,963 L 2176,965 L 2150,967 L 2124,968 L 2098,970 L 2072,970 L 2046,970 L 2020,970 L 2020,1075 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l6",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Item aan Dirck Gerritsz negen"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 814,1166 L 870,1171 L 926,1176 L 982,1180 L 1038,1184 L 1094,1188 L 1150,1191 L 1206,1193 L 1262,1194 L 1318,1196 L 1374,1198 L 1430,1200 L 1486,1200 L 1542,1202 L 1598,1204 L 1654,1204 L 1710,1206 L 1766,1206 L 1822,1208 L 1878,1210 L 1934,1212 L 1934,1110 L 1878,1108 L 1822,1106 L 1766,1104 L 1710,1104 L 1654,1102 L 1598,1102 L 1542,1100 L 1486,1098 L 1430,1098 L 1374,1096 L 1318,1094 L 1262,1092 L 1206,1091 L 1150,1089 L 1094,1086 L 1038,1082 L 982,1078 L 926,1074 L 870,1069 L 814,1064 L 814,1166 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l7",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "gulden"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 796,1312 L 821,1315 L 847,1317 L 872,1318 L 898,1320 L 924,1320 L 949,1320 L 975,1320 L 1000,1320 L 1026,1320 L 1052,1320 L 1052,1218 L 1026,1218 L 1000,1218 L 975,1218 L 949,1218 L 924,1218 L 898,1218 L 872,1216 L 847,1215 L 821,1213 L 796,1210 L 796,1312 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l8",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "\u0192 9\u201e - \u201e"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 1912,1369 L 1939,1372 L 1966,1374 L 1993,1377 L 2020,1379 L 2048,1379 L 2075,1381 L 2102,1381 L 2129,1379 L 2156,1379 L 2184,1378 L 2211,1377 L 2238,1377 L 2265,1375 L 2292,1375 L 2320,1373 L 2347,1373 L 2374,1373 L 2401,1373 L 2428,1373 L 2456,1375 L 2456,1270 L 2428,1268 L 2401,1268 L 2374,1268 L 2347,1268 L 2320,1268 L 2292,1270 L 2265,1270 L 2238,1272 L 2211,1272 L 2184,1273 L 2156,1274 L 2129,1274 L 2102,1276 L 2075,1276 L 2048,1274 L 2020,1274 L 1993,1272 L 1966,1269 L 1939,1267 L 1912,1264 L 1912,1369 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l9",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Item aan Albert Gerritsz Brouwer"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 800,1521 L 857,1521 L 915,1521 L 973,1521 L 1031,1521 L 1089,1522 L 1147,1523 L 1205,1523 L 1263,1525 L 1321,1527 L 1379,1527 L 1436,1529 L 1494,1531 L 1552,1533 L 1610,1535 L 1668,1537 L 1726,1540 L 1784,1543 L 1842,1545 L 1900,1548 L 1958,1551 L 1958,1446 L 1900,1443 L 1842,1440 L 1784,1438 L 1726,1435 L 1668,1432 L 1610,1430 L 1552,1428 L 1494,1426 L 1436,1424 L 1379,1422 L 1321,1422 L 1263,1420 L 1205,1418 L 1147,1418 L 1089,1417 L 1031,1416 L 973,1416 L 915,1416 L 857,1416 L 800,1416 L 800,1521 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l10",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Elff gulden"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 798,1671 L 823,1669 L 848,1669 L 873,1669 L 898,1669 L 923,1670 L 948,1671 L 973,1671 L 998,1672 L 1023,1673 L 1048,1673 L 1073,1673 L 1098,1674 L 1123,1675 L 1148,1675 L 1173,1675 L 1198,1674 L 1224,1673 L 1224,1568 L 1198,1569 L 1173,1570 L 1148,1570 L 1123,1570 L 1098,1569 L 1073,1568 L 1048,1568 L 1023,1568 L 998,1567 L 973,1566 L 948,1566 L 923,1565 L 898,1564 L 873,1564 L 848,1564 L 823,1564 L 798,1566 L 798,1671 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l11",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "\u0192 11\u201e - \u201e -"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 1918,1699 L 1944,1699 L 1970,1700 L 1996,1701 L 2022,1701 L 2048,1701 L 2074,1701 L 2100,1701 L 2126,1703 L 2152,1703 L 2179,1703 L 2205,1703 L 2231,1703 L 2257,1703 L 2283,1703 L 2309,1702 L 2335,1701 L 2361,1701 L 2387,1701 L 2414,1701 L 2414,1596 L 2387,1596 L 2361,1596 L 2335,1596 L 2309,1597 L 2283,1598 L 2257,1598 L 2231,1598 L 2205,1598 L 2179,1598 L 2152,1598 L 2126,1598 L 2100,1596 L 2074,1596 L 2048,1596 L 2022,1596 L 1996,1596 L 1970,1595 L 1944,1594 L 1918,1594 L 1918,1699 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l12",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Item aan Bode Hansz een gulden tien"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 800,1845 L 857,1850 L 914,1855 L 971,1857 L 1028,1859 L 1086,1861 L 1143,1861 L 1200,1861 L 1257,1861 L 1314,1861 L 1372,1861 L 1429,1861 L 1486,1859 L 1543,1859 L 1600,1860 L 1658,1861 L 1715,1861 L 1772,1863 L 1829,1866 L 1886,1869 L 1944,1873 L 1944,1768 L 1886,1764 L 1829,1761 L 1772,1758 L 1715,1756 L 1658,1756 L 1600,1755 L 1543,1754 L 1486,1754 L 1429,1756 L 1372,1756 L 1314,1756 L 1257,1756 L 1200,1756 L 1143,1756 L 1086,1756 L 1028,1754 L 971,1752 L 914,1750 L 857,1745 L 800,1740 L 800,1845 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l13",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "stuijvers"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 820,2001 L 845,2002 L 870,2004 L 895,2005 L 920,2005 L 945,2007 L 970,2007 L 995,2008 L 1020,2009 L 1045,2009 L 1070,2010 L 1095,2011 L 1120,2010 L 1145,2009 L 1170,2009 L 1195,2007 L 1220,2007 L 1220,1902 L 1195,1902 L 1170,1904 L 1145,1904 L 1120,1905 L 1095,1906 L 1070,1905 L 1045,1904 L 1020,1904 L 995,1903 L 970,1902 L 945,1902 L 920,1900 L 895,1900 L 870,1899 L 845,1897 L 820,1896 L 820,2001 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l14",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "\u0192 1\u201e - 10\u201e -"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 1896,2049 L 1926,2051 L 1957,2053 L 1988,2053 L 2019,2055 L 2050,2056 L 2080,2057 L 2111,2057 L 2142,2057 L 2173,2057 L 2204,2057 L 2234,2057 L 2265,2057 L 2296,2057 L 2327,2055 L 2358,2053 L 2388,2053 L 2419,2050 L 2450,2047 L 2481,2044 L 2512,2041 L 2512,1936 L 2481,1939 L 2450,1942 L 2419,1945 L 2388,1948 L 2358,1948 L 2327,1950 L 2296,1952 L 2265,1952 L 2234,1952 L 2204,1952 L 2173,1952 L 2142,1952 L 2111,1952 L 2080,1952 L 2050,1951 L 2019,1950 L 1988,1948 L 1957,1948 L 1926,1946 L 1896,1944 L 1896,2049 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l15",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Item aan sijn gemelde"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 820,2236 L 852,2237 L 885,2238 L 918,2238 L 951,2238 L 984,2238 L 1017,2238 L 1050,2236 L 1083,2236 L 1116,2236 L 1149,2236 L 1181,2236 L 1214,2236 L 1247,2238 L 1280,2238 L 1313,2238 L 1346,2238 L 1379,2239 L 1412,2240 L 1445,2241 L 1478,2242 L 1478,2140 L 1445,2139 L 1412,2138 L 1379,2137 L 1346,2136 L 1313,2136 L 1280,2136 L 1247,2136 L 1214,2134 L 1181,2134 L 1149,2134 L 1116,2134 L 1083,2134 L 1050,2134 L 1017,2136 L 984,2136 L 951,2136 L 918,2136 L 885,2136 L 852,2135 L 820,2134 L 820,2236 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l16",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "soon Marte Jansz over"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 804,2366 L 836,2366 L 869,2366 L 901,2368 L 934,2368 L 966,2368 L 999,2370 L 1031,2370 L 1064,2370 L 1096,2370 L 1129,2372 L 1161,2372 L 1194,2372 L 1226,2373 L 1259,2374 L 1291,2374 L 1324,2374 L 1356,2374 L 1389,2376 L 1421,2376 L 1454,2376 L 1454,2279 L 1421,2279 L 1389,2279 L 1356,2277 L 1324,2277 L 1291,2277 L 1259,2277 L 1226,2276 L 1194,2275 L 1161,2275 L 1129,2275 L 1096,2273 L 1064,2273 L 1031,2273 L 999,2273 L 966,2271 L 934,2271 L 901,2271 L 869,2269 L 836,2269 L 804,2269 L 804,2366 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l17",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "gelevert goet, ende"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 796,2497 L 827,2497 L 859,2497 L 891,2497 L 922,2498 L 954,2499 L 986,2499 L 1017,2499 L 1049,2499 L 1081,2499 L 1113,2501 L 1144,2501 L 1176,2501 L 1208,2501 L 1239,2503 L 1271,2503 L 1303,2503 L 1334,2503 L 1366,2503 L 1398,2503 L 1430,2503 L 1430,2409 L 1398,2409 L 1366,2409 L 1334,2409 L 1303,2409 L 1271,2409 L 1239,2409 L 1208,2407 L 1176,2407 L 1144,2407 L 1113,2407 L 1081,2405 L 1049,2405 L 1017,2405 L 986,2405 L 954,2405 L 922,2404 L 891,2403 L 859,2403 L 827,2403 L 796,2403 L 796,2497 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l18",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "verschoten penningen"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 798,2637 L 830,2635 L 863,2633 L 895,2630 L 928,2629 L 961,2627 L 993,2627 L 1026,2625 L 1058,2625 L 1091,2625 L 1124,2625 L 1156,2625 L 1189,2625 L 1221,2625 L 1254,2625 L 1287,2625 L 1319,2625 L 1352,2625 L 1384,2625 L 1417,2627 L 1450,2627 L 1450,2534 L 1417,2534 L 1384,2532 L 1352,2532 L 1319,2532 L 1287,2532 L 1254,2532 L 1221,2532 L 1189,2532 L 1156,2532 L 1124,2532 L 1091,2532 L 1058,2532 L 1026,2532 L 993,2534 L 961,2534 L 928,2536 L 895,2537 L 863,2540 L 830,2542 L 798,2544 L 798,2637 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l19",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "viertien gulden \u0192 14\u201e -"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 816,2761 L 861,2759 L 907,2759 L 952,2757 L 998,2755 L 1044,2755 L 1089,2755 L 1135,2755 L 1180,2755 L 1226,2755 L 1272,2755 L 1317,2755 L 1363,2755 L 1408,2755 L 1454,2755 L 1500,2757 L 1545,2757 L 1591,2757 L 1636,2757 L 1682,2757 L 1728,2755 L 1728,2662 L 1682,2664 L 1636,2664 L 1591,2664 L 1545,2664 L 1500,2664 L 1454,2662 L 1408,2662 L 1363,2662 L 1317,2662 L 1272,2662 L 1226,2662 L 1180,2662 L 1135,2662 L 1089,2662 L 1044,2662 L 998,2662 L 952,2664 L 907,2666 L 861,2666 L 816,2668 L 816,2761 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l20",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "over een Jaar kost"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 820,2917 L 850,2916 L 880,2915 L 910,2915 L 940,2915 L 970,2915 L 1000,2913 L 1030,2913 L 1060,2913 L 1090,2913 L 1121,2912 L 1151,2911 L 1181,2911 L 1211,2911 L 1241,2911 L 1271,2911 L 1301,2912 L 1331,2913 L 1361,2913 L 1391,2913 L 1422,2915 L 1422,2827 L 1391,2825 L 1361,2825 L 1331,2825 L 1301,2824 L 1271,2823 L 1241,2823 L 1211,2823 L 1181,2823 L 1151,2823 L 1121,2824 L 1090,2825 L 1060,2825 L 1030,2825 L 1000,2825 L 970,2827 L 940,2827 L 910,2827 L 880,2827 L 850,2828 L 820,2829 L 820,2917 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l21",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "gelt hondert gulden \u0192 100\u201e -"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 796,3039 L 838,3037 L 881,3035 L 923,3035 L 966,3034 L 1009,3033 L 1051,3033 L 1094,3033 L 1136,3033 L 1179,3033 L 1222,3033 L 1264,3033 L 1307,3031 L 1349,3031 L 1392,3031 L 1435,3029 L 1477,3027 L 1520,3026 L 1562,3023 L 1605,3021 L 1648,3017 L 1648,2930 L 1605,2934 L 1562,2936 L 1520,2939 L 1477,2940 L 1435,2942 L 1392,2944 L 1349,2944 L 1307,2944 L 1264,2946 L 1222,2946 L 1179,2946 L 1136,2946 L 1094,2946 L 1051,2946 L 1009,2946 L 966,2947 L 923,2948 L 881,2948 L 838,2950 L 796,2952 L 796,3039 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l22",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "\u0192"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 1338,3172 L 1365,3173 L 1392,3176 L 1420,3174 L 1447,3174 L 1474,3174 L 1502,3176 L 1502,3074 L 1474,3072 L 1447,3072 L 1420,3072 L 1392,3074 L 1365,3071 L 1338,3070 L 1338,3172 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l23",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "\u0192 114\u201e -"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 1960,3179 L 1988,3177 L 2016,3177 L 2045,3177 L 2073,3177 L 2101,3176 L 2130,3173 L 2130,3068 L 2101,3071 L 2073,3072 L 2045,3072 L 2016,3072 L 1988,3072 L 1960,3074 L 1960,3179 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r2l24",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "dootschuldt"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 2174,3445 L 2199,3443 L 2224,3442 L 2250,3441 L 2275,3441 L 2301,3441 L 2326,3439 L 2352,3439 L 2377,3439 L 2403,3439 L 2428,3439 L 2454,3439 L 2479,3438 L 2505,3437 L 2530,3437 L 2556,3435 L 2556,3330 L 2530,3332 L 2505,3332 L 2479,3333 L 2454,3334 L 2428,3334 L 2403,3334 L 2377,3334 L 2352,3334 L 2326,3334 L 2301,3336 L 2275,3336 L 2250,3336 L 2224,3337 L 2199,3338 L 2174,3340 L 2174,3445 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l1",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "87"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 4850,229 L 4898,221 L 4898,139 L 4850,147 L 4850,229 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l2",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "dootschuldt"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3772,641 L 3797,639 L 3823,637 L 3849,637 L 3874,635 L 3900,633 L 3926,632 L 3951,631 L 3977,629 L 4003,628 L 4029,626 L 4054,625 L 4080,625 L 4106,623 L 4131,623 L 4157,623 L 4183,623 L 4208,623 L 4234,623 L 4260,623 L 4286,625 L 4286,543 L 4260,541 L 4234,541 L 4208,541 L 4183,541 L 4157,541 L 4131,541 L 4106,541 L 4080,543 L 4054,543 L 4029,544 L 4003,546 L 3977,547 L 3951,549 L 3926,550 L 3900,551 L 3874,553 L 3849,555 L 3823,555 L 3797,557 L 3772,559 L 3772,641 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l3",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "De dootschult en uijtvaart vanden"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3282,813 L 3341,813 L 3400,813 L 3459,813 L 3518,811 L 3577,811 L 3636,811 L 3695,811 L 3754,811 L 3813,811 L 3872,811 L 3931,811 L 3990,813 L 4049,813 L 4108,815 L 4167,817 L 4226,818 L 4285,821 L 4344,825 L 4403,827 L 4462,831 L 4462,749 L 4403,745 L 4344,743 L 4285,739 L 4226,736 L 4167,735 L 4108,733 L 4049,731 L 3990,731 L 3931,729 L 3872,729 L 3813,729 L 3754,729 L 3695,729 L 3636,729 L 3577,729 L 3518,729 L 3459,731 L 3400,731 L 3341,731 L 3282,731 L 3282,813 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l4",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "overledene int geheel gekost"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3338,947 L 3395,946 L 3453,944 L 3510,943 L 3568,941 L 3626,941 L 3683,939 L 3741,939 L 3798,939 L 3856,939 L 3914,939 L 3971,939 L 4029,941 L 4086,941 L 4144,944 L 4202,945 L 4259,947 L 4317,950 L 4374,953 L 4432,956 L 4490,959 L 4490,877 L 4432,874 L 4374,871 L 4317,868 L 4259,865 L 4202,863 L 4144,862 L 4086,859 L 4029,859 L 3971,857 L 3914,857 L 3856,857 L 3798,857 L 3741,857 L 3683,857 L 3626,859 L 3568,859 L 3510,861 L 3453,862 L 3395,864 L 3338,865 L 3338,947 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l5",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "de somme van een hondert ende dertigh"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3330,1091 L 3387,1091 L 3445,1090 L 3503,1089 L 3561,1087 L 3619,1087 L 3676,1087 L 3734,1085 L 3792,1085 L 3850,1085 L 3908,1085 L 3965,1085 L 4023,1085 L 4081,1087 L 4139,1087 L 4197,1089 L 4254,1091 L 4312,1094 L 4370,1097 L 4428,1099 L 4486,1103 L 4486,1021 L 4428,1017 L 4370,1015 L 4312,1012 L 4254,1009 L 4197,1007 L 4139,1005 L 4081,1005 L 4023,1003 L 3965,1003 L 3908,1003 L 3850,1003 L 3792,1003 L 3734,1003 L 3676,1005 L 3619,1005 L 3561,1005 L 3503,1007 L 3445,1008 L 3387,1009 L 3330,1009 L 3330,1091 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l6",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Caroli guldens d'welcke bij de voorsz."
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3348,1245 L 3405,1240 L 3462,1237 L 3520,1233 L 3577,1230 L 3635,1227 L 3692,1225 L 3749,1225 L 3807,1223 L 3864,1223 L 3922,1223 L 3979,1223 L 4036,1223 L 4094,1225 L 4151,1227 L 4209,1228 L 4266,1231 L 4323,1233 L 4381,1235 L 4438,1238 L 4496,1241 L 4496,1159 L 4438,1156 L 4381,1153 L 4323,1151 L 4266,1149 L 4209,1146 L 4151,1145 L 4094,1143 L 4036,1141 L 3979,1141 L 3922,1141 L 3864,1141 L 3807,1141 L 3749,1143 L 3692,1143 L 3635,1145 L 3577,1148 L 3520,1151 L 3462,1155 L 3405,1158 L 3348,1163 L 3348,1245 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l7",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Marten Jansz des overledens soon"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3326,1387 L 3382,1384 L 3439,1381 L 3496,1380 L 3552,1378 L 3609,1377 L 3666,1375 L 3722,1375 L 3779,1373 L 3836,1373 L 3893,1373 L 3949,1373 L 4006,1373 L 4063,1373 L 4119,1375 L 4176,1377 L 4233,1378 L 4289,1381 L 4346,1383 L 4403,1387 L 4460,1389 L 4460,1307 L 4403,1305 L 4346,1301 L 4289,1299 L 4233,1296 L 4176,1295 L 4119,1293 L 4063,1291 L 4006,1291 L 3949,1291 L 3893,1291 L 3836,1291 L 3779,1291 L 3722,1293 L 3666,1293 L 3609,1295 L 3552,1296 L 3496,1298 L 3439,1299 L 3382,1302 L 3326,1305 L 3326,1387 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l8",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "verstreckt zijn"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3266,1555 L 3300,1551 L 3334,1547 L 3368,1544 L 3402,1541 L 3436,1539 L 3470,1537 L 3504,1536 L 3538,1535 L 3572,1533 L 3607,1533 L 3641,1533 L 3675,1531 L 3709,1531 L 3743,1531 L 3777,1531 L 3811,1531 L 3845,1529 L 3879,1529 L 3913,1528 L 3948,1527 L 3948,1445 L 3913,1446 L 3879,1447 L 3845,1447 L 3811,1449 L 3777,1449 L 3743,1449 L 3709,1449 L 3675,1449 L 3641,1451 L 3607,1451 L 3572,1451 L 3538,1453 L 3504,1454 L 3470,1455 L 3436,1457 L 3402,1459 L 3368,1462 L 3334,1465 L 3300,1469 L 3266,1473 L 3266,1555 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l9",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "\u0192 130\u201e -"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 4448,1543 L 4474,1544 L 4500,1546 L 4526,1547 L 4552,1548 L 4578,1549 L 4605,1549 L 4631,1549 L 4657,1551 L 4683,1551 L 4709,1551 L 4735,1550 L 4762,1549 L 4762,1467 L 4735,1468 L 4709,1469 L 4683,1469 L 4657,1469 L 4631,1467 L 4605,1467 L 4578,1467 L 4552,1466 L 4526,1465 L 4500,1464 L 4474,1462 L 4448,1461 L 4448,1543 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l10",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Aldus gespecificeert ten huijse vande voorsz Marten Jansz"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3234,1805 L 3325,1803 L 3417,1801 L 3509,1801 L 3601,1799 L 3693,1797 L 3785,1797 L 3877,1795 L 3969,1795 L 4061,1795 L 4153,1797 L 4244,1797 L 4336,1800 L 4428,1803 L 4520,1806 L 4612,1812 L 4704,1818 L 4796,1825 L 4888,1833 L 4980,1844 L 5072,1855 L 5072,1773 L 4980,1762 L 4888,1751 L 4796,1743 L 4704,1736 L 4612,1730 L 4520,1724 L 4428,1721 L 4336,1718 L 4244,1715 L 4153,1715 L 4061,1713 L 3969,1713 L 3877,1713 L 3785,1715 L 3693,1715 L 3601,1717 L 3509,1719 L 3417,1719 L 3325,1721 L 3234,1723 L 3234,1805 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l11",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Boxemaker gestaan aande Monckelbaanstoren binnen"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3308,1939 L 3396,1937 L 3485,1935 L 3574,1933 L 3663,1931 L 3752,1931 L 3841,1929 L 3930,1929 L 4019,1931 L 4108,1931 L 4197,1933 L 4285,1935 L 4374,1937 L 4463,1941 L 4552,1945 L 4641,1950 L 4730,1956 L 4819,1962 L 4908,1969 L 4997,1979 L 5086,1987 L 5086,1905 L 4997,1897 L 4908,1887 L 4819,1880 L 4730,1874 L 4641,1868 L 4552,1863 L 4463,1859 L 4374,1855 L 4285,1853 L 4197,1851 L 4108,1849 L 4019,1849 L 3930,1847 L 3841,1847 L 3752,1849 L 3663,1849 L 3574,1851 L 3485,1853 L 3396,1855 L 3308,1857 L 3308,1939 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l12",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "deser stede Amstelredamme, alwaar de voorn. Jan"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3330,2075 L 3412,2072 L 3494,2069 L 3576,2067 L 3658,2065 L 3741,2063 L 3823,2063 L 3905,2063 L 3987,2063 L 4069,2063 L 4152,2064 L 4234,2065 L 4316,2067 L 4398,2071 L 4480,2073 L 4563,2077 L 4645,2082 L 4727,2087 L 4809,2092 L 4891,2098 L 4974,2105 L 4974,2023 L 4891,2016 L 4809,2010 L 4727,2005 L 4645,2000 L 4563,1995 L 4480,1991 L 4398,1989 L 4316,1985 L 4234,1983 L 4152,1982 L 4069,1981 L 3987,1981 L 3905,1981 L 3823,1981 L 3741,1981 L 3658,1983 L 3576,1985 L 3494,1987 L 3412,1990 L 3330,1993 L 3330,2075 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l14",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Martsz overleden is. Bij mij Jacob de Winter"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3288,2223 L 3369,2219 L 3450,2215 L 3532,2211 L 3613,2207 L 3695,2205 L 3776,2203 L 3857,2199 L 3939,2199 L 4020,2197 L 4102,2197 L 4183,2197 L 4264,2197 L 4346,2197 L 4427,2198 L 4509,2199 L 4590,2201 L 4671,2204 L 4753,2207 L 4834,2211 L 4916,2215 L 4916,2133 L 4834,2129 L 4753,2125 L 4671,2122 L 4590,2119 L 4509,2117 L 4427,2116 L 4346,2115 L 4264,2115 L 4183,2115 L 4102,2115 L 4020,2115 L 3939,2117 L 3857,2117 L 3776,2121 L 3695,2123 L 3613,2125 L 3532,2129 L 3450,2133 L 3369,2137 L 3288,2141 L 3288,2223 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l15",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Openbaar Notaris binnen der selver stede"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3316,2373 L 3398,2368 L 3481,2360 L 3564,2356 L 3647,2351 L 3730,2347 L 3812,2345 L 3895,2342 L 3978,2340 L 4061,2339 L 4144,2337 L 4226,2337 L 4309,2337 L 4392,2339 L 4475,2340 L 4558,2341 L 4640,2344 L 4723,2347 L 4806,2349 L 4889,2353 L 4972,2357 L 4972,2275 L 4889,2271 L 4806,2267 L 4723,2265 L 4640,2262 L 4558,2259 L 4475,2258 L 4392,2257 L 4309,2255 L 4226,2255 L 4144,2255 L 4061,2257 L 3978,2258 L 3895,2260 L 3812,2263 L 3730,2265 L 3647,2269 L 3564,2274 L 3481,2278 L 3398,2286 L 3316,2291 L 3316,2373 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l16",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "residerende, desen derden februarij ao. xvic"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3316,2519 L 3395,2514 L 3475,2509 L 3554,2505 L 3634,2501 L 3714,2497 L 3793,2495 L 3873,2491 L 3952,2489 L 4032,2488 L 4112,2487 L 4191,2487 L 4271,2485 L 4350,2487 L 4430,2487 L 4510,2489 L 4589,2489 L 4669,2492 L 4748,2495 L 4828,2499 L 4908,2503 L 4908,2421 L 4828,2417 L 4748,2413 L 4669,2410 L 4589,2407 L 4510,2407 L 4430,2405 L 4350,2405 L 4271,2403 L 4191,2405 L 4112,2405 L 4032,2406 L 3952,2407 L 3873,2409 L 3793,2413 L 3714,2415 L 3634,2419 L 3554,2423 L 3475,2427 L 3395,2432 L 3316,2437 L 3316,2519 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l17",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "vierenvijftigh ter presentie van Cornelis Kick"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3346,2675 L 3433,2669 L 3520,2662 L 3607,2657 L 3695,2652 L 3782,2647 L 3869,2645 L 3957,2641 L 4044,2638 L 4131,2635 L 4219,2634 L 4306,2633 L 4393,2633 L 4480,2633 L 4568,2633 L 4655,2635 L 4742,2636 L 4830,2639 L 4917,2642 L 5004,2645 L 5092,2651 L 5092,2569 L 5004,2563 L 4917,2560 L 4830,2557 L 4742,2554 L 4655,2553 L 4568,2551 L 4480,2551 L 4393,2551 L 4306,2551 L 4219,2552 L 4131,2553 L 4044,2556 L 3957,2559 L 3869,2563 L 3782,2565 L 3695,2570 L 3607,2575 L 3520,2580 L 3433,2587 L 3346,2593 L 3346,2675 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l18",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "ende Pieter Lijtaart, als getuijgen hier over gestaan"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3302,2815 L 3390,2808 L 3478,2801 L 3566,2796 L 3654,2791 L 3742,2787 L 3830,2785 L 3918,2783 L 4006,2782 L 4094,2781 L 4183,2782 L 4271,2783 L 4359,2784 L 4447,2785 L 4535,2787 L 4623,2789 L 4711,2792 L 4799,2793 L 4887,2797 L 4975,2799 L 5064,2801 L 5064,2719 L 4975,2717 L 4887,2715 L 4799,2711 L 4711,2710 L 4623,2707 L 4535,2705 L 4447,2703 L 4359,2702 L 4271,2701 L 4183,2700 L 4094,2699 L 4006,2700 L 3918,2701 L 3830,2703 L 3742,2705 L 3654,2709 L 3566,2714 L 3478,2719 L 3390,2726 L 3302,2733 L 3302,2815 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l19",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Accordeert metten protocolle van mij"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3892,2922 L 3947,2920 L 4003,2920 L 4059,2920 L 4115,2922 L 4171,2922 L 4226,2923 L 4282,2924 L 4338,2926 L 4394,2927 L 4450,2928 L 4505,2930 L 4561,2930 L 4617,2932 L 4673,2932 L 4729,2932 L 4784,2932 L 4840,2932 L 4896,2931 L 4952,2930 L 5008,2928 L 5008,2856 L 4952,2858 L 4896,2859 L 4840,2860 L 4784,2860 L 4729,2860 L 4673,2860 L 4617,2860 L 4561,2858 L 4505,2858 L 4450,2856 L 4394,2855 L 4338,2854 L 4282,2852 L 4226,2851 L 4171,2850 L 4115,2850 L 4059,2848 L 4003,2848 L 3947,2848 L 3892,2850 L 3892,2922 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l20",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Quod attestor"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 4054,3043 L 4086,3042 L 4118,3040 L 4150,3039 L 4182,3037 L 4214,3037 L 4246,3037 L 4278,3035 L 4310,3035 L 4342,3035 L 4374,3035 L 4406,3035 L 4438,3035 L 4470,3035 L 4502,3035 L 4534,3035 L 4566,3034 L 4598,3033 L 4630,3032 L 4662,3030 L 4694,3027 L 4694,2951 L 4662,2954 L 4630,2956 L 4598,2957 L 4566,2958 L 4534,2959 L 4502,2959 L 4470,2959 L 4438,2959 L 4406,2959 L 4374,2959 L 4342,2959 L 4310,2959 L 4278,2959 L 4246,2961 L 4214,2961 L 4182,2961 L 4150,2963 L 4118,2964 L 4086,2966 L 4054,2967 L 4054,3043 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l24",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "J. de Winter"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3726,3180 L 3761,3177 L 3797,3176 L 3832,3176 L 3868,3176 L 3903,3176 L 3939,3176 L 3974,3177 L 4010,3179 L 4045,3180 L 4081,3181 L 4116,3183 L 4152,3185 L 4187,3186 L 4223,3186 L 4258,3188 L 4294,3188 L 4329,3188 L 4365,3187 L 4400,3186 L 4436,3184 L 4436,3154 L 4400,3156 L 4365,3157 L 4329,3158 L 4294,3158 L 4258,3158 L 4223,3156 L 4187,3156 L 4152,3155 L 4116,3153 L 4081,3151 L 4045,3150 L 4010,3149 L 3974,3147 L 3939,3146 L 3903,3146 L 3868,3146 L 3832,3146 L 3797,3146 L 3761,3147 L 3726,3150 L 3726,3180 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l28",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Compareerde voor schepenen ondergeschreven"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3318,3348 L 3380,3346 L 3443,3344 L 3506,3342 L 3569,3342 L 3632,3342 L 3695,3342 L 3758,3342 L 3821,3342 L 3884,3344 L 3947,3344 L 4009,3345 L 4072,3346 L 4135,3346 L 4198,3348 L 4261,3348 L 4324,3350 L 4387,3350 L 4450,3350 L 4513,3350 L 4576,3350 L 4576,3296 L 4513,3296 L 4450,3296 L 4387,3296 L 4324,3296 L 4261,3294 L 4198,3294 L 4135,3292 L 4072,3292 L 4009,3291 L 3947,3290 L 3884,3290 L 3821,3288 L 3758,3288 L 3695,3288 L 3632,3288 L 3569,3288 L 3506,3288 L 3443,3290 L 3380,3292 L 3318,3294 L 3318,3348 Z\"/></svg>"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000196/r3l29",
+   "type": "Annotation",
+   "motivation": "supplementing",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Ende verklaarde hunselven gestelt"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000196",
+    "selector": {
+     "type": "SvgSelector",
+     "value": "<svg xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" fill=\"#66cc99\" stroke=\"#555555\" stroke-width=\"1\" fill-opacity=\"0.08\" d=\"M 3984,3418 L 4038,3420 L 4092,3420 L 4146,3422 L 4200,3422 L 4254,3424 L 4308,3424 L 4362,3425 L 4416,3426 L 4470,3426 L 4525,3426 L 4579,3426 L 4633,3424 L 4687,3424 L 4741,3422 L 4795,3421 L 4849,3418 L 4903,3416 L 4957,3414 L 5011,3409 L 5066,3406 L 5066,3351 L 5011,3354 L 4957,3359 L 4903,3361 L 4849,3363 L 4795,3366 L 4741,3367 L 4687,3369 L 4633,3369 L 4579,3371 L 4525,3371 L 4470,3371 L 4416,3371 L 4362,3370 L 4308,3369 L 4254,3369 L 4200,3367 L 4146,3367 L 4092,3365 L 4038,3365 L 3984,3363 L 3984,3418 Z\"/></svg>"
+    }
+   }
+  }
+ ]
+}
