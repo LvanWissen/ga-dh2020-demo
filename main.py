@@ -38,7 +38,7 @@ def createManifest(imagefolder: str,
             "http://iiif.io/api/presentation/3/context.json"
         ],
         "id":
-        "https://data.goldenagents.org/datasets/dh2020/manifest/2408",
+        "https://lvanwissen.github.io/ga-dh2020-demo/iiif/manifest.json",
         "type":
         "Manifest",
         "label": {
@@ -226,15 +226,13 @@ def createManifest(imagefolder: str,
             }
 
             for k, v in md.items():
-                metadata.append(
-                    {
-                        "label": {
-                            "en": [k]
-                        },
-                        "value": {
-                            "nl": [v] if type(v) == str else v
-                        }
-                    
+                metadata.append({
+                    "label": {
+                        "en": [k]
+                    },
+                    "value": {
+                        "nl": [v] if type(v) == str else v
+                    }
                 })
 
         canvas = getCanvas(imagepath,
