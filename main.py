@@ -17,10 +17,11 @@ nsAnno = Namespace("https://data.goldenagents.org/datasets/dh2020/annotation/")
 
 def main(imagefolder: str,
          annotationfolder: str = None,
-         nameslocationsfile: str = None):
+         nameslocationsfile: str = None,
+         canvasmetadatafile: str = None):
 
     manifest = createManifest(imagefolder, annotationfolder,
-                              nameslocationsfile)
+                              nameslocationsfile, canvasmetadatafile)
 
     with open('iiif/manifest.json', 'w') as outfile:
         json.dump(manifest, outfile, indent=2)
@@ -28,7 +29,8 @@ def main(imagefolder: str,
 
 def createManifest(imagefolder: str,
                    annotationfolder: str = None,
-                   nameslocationsfile: str = None):
+                   nameslocationsfile: str = None,
+                   canvasmetadatafile: str = None):
 
     manifest = {
         "@context": [
@@ -181,10 +183,16 @@ def createManifest(imagefolder: str,
     else:
         nameslocationsdata = dict()
 
+    if canvasmetadatafile:
+        with open(canvasmetadatafile) as infile:
+            canvasmetadata = json.load(infile)
+    else:
+        canvasmetadata = dict()
+
     for fn in sorted(os.listdir(imagefolder)):
         imagepath = os.path.join(imagefolder, fn)
 
-        baseFilename, ext = os.path.splitext(fn)
+        baseFilename, _ = os.path.splitext(fn)
 
         # HTR annotations
         if annotationfolder:
@@ -198,10 +206,41 @@ def createManifest(imagefolder: str,
         else:
             annotationpath = None
 
-        # PeronNames and Locations have been selected by AAA
+        # PersonNames and Locations have been selected by AAA
         nameslocations = nameslocationsdata.get(fn, [])
 
-        canvas = getCanvas(imagepath, annotationpath, nameslocations)
+        # Metadata from AAA
+        canvasmeta = canvasmetadata.get(fn)
+        metadata = []
+
+        if canvasmeta:
+            md = {
+                'Type of deed': canvasmeta['actType'],
+                'Date': canvasmeta['registrationDate'],
+                'Description': canvasmeta['description'],
+                'Language': canvasmeta['language'].title(),
+                'Notary': canvasmeta['notary'],
+                'Persons': canvasmeta['persons'],
+                'Locations': canvasmeta['locations'],
+                'Identifier': canvasmeta['identifier']
+            }
+
+            for k, v in md.items():
+                metadata.append(
+                    {
+                        "label": {
+                            "en": [k]
+                        },
+                        "value": {
+                            "nl": [v] if type(v) == str else v
+                        }
+                    
+                })
+
+        canvas = getCanvas(imagepath,
+                           annotationpath,
+                           nameslocations,
+                           metadata=metadata)
         items.append(canvas)
 
     manifest["items"] = items
@@ -212,7 +251,8 @@ def createManifest(imagefolder: str,
 def getCanvas(imagepath: str,
               annotationpath: str = None,
               nameslocations: list = None,
-              canvasid: str = None) -> dict:
+              canvasid: str = None,
+              metadata: list = []) -> dict:
 
     _, filename = os.path.split(imagepath)
     baseFilename, ext = os.path.splitext(filename)
@@ -234,7 +274,8 @@ def getCanvas(imagepath: str,
                               motivation='painting')
         ],
         "annotations": [],
-        "metadata": []
+        "metadata":
+        metadata
     }
 
     annotations = []
@@ -266,6 +307,7 @@ def getCanvas(imagepath: str,
 
     canvas['annotations'] = annotations
 
+    # These are already calculated in the painting annotation
     canvas['width'] = canvas['items'][0]['items'][0]['body']['width']
     canvas['height'] = canvas['items'][0]['items'][0]['body']['height']
 
@@ -479,4 +521,5 @@ def getSVG(coordinates: Union[list, tuple],
 if __name__ == "__main__":
     main(imagefolder='images/2408/',
          annotationfolder='data/htr/2408/',
-         nameslocationsfile='data/2408_nameslocations.json')
+         nameslocationsfile='data/2408_nameslocations.json',
+         canvasmetadatafile='data/2408_canvasmetadata.json')
