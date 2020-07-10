@@ -12,6 +12,31 @@
     {
      "type": "TextualBody",
      "language": "nl",
+     "value": "Niklaas van Gherwen"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000216",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=4609,516,301,112"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000216/index2",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
      "value": "Cornelia Warmont"
     },
     {
@@ -25,31 +50,6 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=3816,722,663,112"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000216/index2",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Barta Warmonts"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000216",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=3390,3641,458,74"
     }
    }
   },
@@ -87,7 +87,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Niklaas van Gherwen"
+     "value": "Barta Warmonts"
     },
     {
      "type": "TextualBody",
@@ -99,7 +99,7 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000216",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=4609,516,301,112"
+     "value": "xywh=3390,3641,458,74"
     }
    }
   }

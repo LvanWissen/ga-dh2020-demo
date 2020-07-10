@@ -12,81 +12,6 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Paulus Heemskerck"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=4142,287,590,117"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index2",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Bastiaen Jansz"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=2242,656,324,99"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index3",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Claes Bout"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=3436,1764,313,85"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index4",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
      "value": "Joannem Michgorium"
     },
     {
@@ -105,14 +30,14 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index5",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index2",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Harman Gerritsz"
+     "value": "Paulus Heemskerck"
     },
     {
      "type": "TextualBody",
@@ -124,113 +49,38 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=663,708,639,106"
+     "value": "xywh=4142,287,590,117"
     }
    }
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index6",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index3",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Gerrit Bronckhorst"
+     "value": "Haexbergen"
     },
     {
      "type": "TextualBody",
      "purpose": "tagging",
-     "value": "Person"
+     "value": "Location"
     }
    ],
    "target": {
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=1721,938,785,104"
+     "value": "xywh=786,338,440,111"
     }
    }
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index7",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Gerrit op 't Zut"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1113,520,611,96"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index8",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Thijs Jansz"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=887,1054,415,108"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index9",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Intge Hendricx"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1812,442,554,90"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index10",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index4",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -255,57 +105,7 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index11",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Wemelingh bij Lochum"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Location"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1437,680,792,111"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index12",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Swaentje Hendricx"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1058,429,599,124"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index13",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index5",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -330,14 +130,14 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index14",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index6",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Jan Groenhoedt"
+     "value": "Swaentje Hendricx"
     },
     {
      "type": "TextualBody",
@@ -349,13 +149,138 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=3888,1738,479,91"
+     "value": "xywh=1058,429,599,124"
     }
    }
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index15",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index7",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Intge Hendricx"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1812,442,554,90"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index8",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Gerrit op 't Zut"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1113,520,611,96"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index9",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Bastiaen Jansz"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=2242,656,324,99"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index10",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Wemelingh bij Lochum"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Location"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1437,680,792,111"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index11",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Harman Gerritsz"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=663,708,639,106"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index12",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -380,6 +305,81 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index13",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Gerrit Bronckhorst"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1721,938,785,104"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index14",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Thijs Jansz"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=887,1054,415,108"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index15",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Jan Groenhoedt"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=3888,1738,479,91"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
    "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000106/index16",
    "type": "Annotation",
    "motivation": "commenting",
@@ -387,19 +387,19 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Haexbergen"
+     "value": "Claes Bout"
     },
     {
      "type": "TextualBody",
      "purpose": "tagging",
-     "value": "Location"
+     "value": "Person"
     }
    ],
    "target": {
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000106",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=786,338,440,111"
+     "value": "xywh=3436,1764,313,85"
     }
    }
   }

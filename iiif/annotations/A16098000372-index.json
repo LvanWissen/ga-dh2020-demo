@@ -12,7 +12,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Petrus Gribius"
+     "value": "Jan Wtenbogardt"
     },
     {
      "type": "TextualBody",
@@ -24,263 +24,13 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=993,2850,543,117"
+     "value": "xywh=2693,832,338,62"
     }
    }
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
    "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index2",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Fijtje Nunnikhoven"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1011,2236,609,89"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index3",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "David de Cluw"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1646,2813,472,130"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index4",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Jan Bremens"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1856,2208,459,100"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index5",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Jan Dreijer"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=4314,1908,481,138"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index6",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Jeuriaan van Remen"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=2059,2547,546,112"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index7",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Wesel"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Location"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=673,2934,151,62"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index8",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Hendrick Peulincks"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=2376,2190,214,96"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index9",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Elisabet Jans"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=3256,2049,526,109"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index10",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Lijsbet Nunnikhoven"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=2017,2295,589,98"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index11",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Hendrick Scholte"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1578,2118,571,134"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index12",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -305,14 +55,14 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index13",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index3",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Willem Nunnikhoven"
+     "value": "Jan Dreijer"
     },
     {
      "type": "TextualBody",
@@ -324,20 +74,20 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=2224,2856,329,75"
+     "value": "xywh=4314,1908,481,138"
     }
    }
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index14",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index4",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Barent Veris"
+     "value": "Elisabet Jans"
     },
     {
      "type": "TextualBody",
@@ -349,13 +99,138 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=3152,3664,311,66"
+     "value": "xywh=3256,2049,526,109"
     }
    }
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index15",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index5",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Hendrick Scholte"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1578,2118,571,134"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index6",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Hendrick Peulincks"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=2376,2190,214,96"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index7",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Jan Bremens"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1856,2208,459,100"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index8",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Fijtje Nunnikhoven"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1011,2236,609,89"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index9",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Lijsbet Nunnikhoven"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=2017,2295,589,98"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index10",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -380,14 +255,14 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index16",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index11",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Jan Wtenbogardt"
+     "value": "Jeuriaan van Remen"
     },
     {
      "type": "TextualBody",
@@ -399,7 +274,132 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=2693,832,338,62"
+     "value": "xywh=2059,2547,546,112"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index12",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "David de Cluw"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1646,2813,472,130"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index13",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Petrus Gribius"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=993,2850,543,117"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index14",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Willem Nunnikhoven"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=2224,2856,329,75"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index15",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Wesel"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Location"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=673,2934,151,62"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000372/index16",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Barent Veris"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000372",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=3152,3664,311,66"
     }
    }
   }

@@ -12,31 +12,6 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Hendrick Jacobsz Keleman"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000558",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=3257,1867,808,105"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000558/index2",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
      "value": "Coenraad Klinck"
     },
     {
@@ -50,6 +25,31 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=3055,1524,215,64"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000558/index2",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Hendrick Jacobsz Keleman"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000558",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=3257,1867,808,105"
     }
    }
   }

@@ -12,31 +12,6 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Elisabet Martens"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000597",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=3920,3090,638,100"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000597/index2",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
      "value": "Jan Jansz van Santen"
     },
     {
@@ -55,32 +30,7 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000597/index3",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Grietje Arents"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000597",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=4689,3090,422,119"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000597/index4",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000597/index2",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -105,14 +55,39 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000597/index5",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000597/index3",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Nicolaes Valckenburgh"
+     "value": "Batavia in Oostindien"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Location"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000597",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=3686,2112,659,91"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000597/index4",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Andries Roelofsz Appeldoorn"
     },
     {
      "type": "TextualBody",
@@ -124,7 +99,32 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000597",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=3400,2509,760,107"
+     "value": "xywh=4684,2249,432,104"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000597/index5",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Annetje Barts"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000597",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=3845,2264,490,98"
     }
    }
   },
@@ -162,7 +162,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Andries Roelofsz Appeldoorn"
+     "value": "Nicolaes Valckenburgh"
     },
     {
      "type": "TextualBody",
@@ -174,7 +174,7 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000597",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=4684,2249,432,104"
+     "value": "xywh=3400,2509,760,107"
     }
    }
   },
@@ -187,19 +187,19 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Batavia in Oostindien"
+     "value": "Elisabet Martens"
     },
     {
      "type": "TextualBody",
      "purpose": "tagging",
-     "value": "Location"
+     "value": "Person"
     }
    ],
    "target": {
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000597",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=3686,2112,659,91"
+     "value": "xywh=3920,3090,638,100"
     }
    }
   },
@@ -212,7 +212,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Annetje Barts"
+     "value": "Grietje Arents"
     },
     {
      "type": "TextualBody",
@@ -224,7 +224,7 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000597",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=3845,2264,490,98"
+     "value": "xywh=4689,3090,422,119"
     }
    }
   }

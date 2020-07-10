@@ -12,31 +12,6 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Pieter van Velsen"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000387",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1387,2896,580,88"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000387/index2",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
      "value": "Willem Jansz Uijl"
     },
     {
@@ -50,6 +25,31 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=1137,2848,484,80"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000387/index2",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Pieter van Velsen"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000387",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1387,2896,580,88"
     }
    }
   }

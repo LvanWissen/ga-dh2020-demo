@@ -37,81 +37,6 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Aaltje Arents"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000319",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1667,2724,424,88"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000319/index3",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Huijbert Sijmonsz"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000319",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=2408,2696,201,116"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000319/index4",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Weijntje Willems"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000319",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=3784,963,556,90"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000319/index5",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
      "value": "Heijltje Jans"
     },
     {
@@ -130,7 +55,7 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000319/index6",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000319/index3",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -155,7 +80,57 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000319/index7",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000319/index4",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Lijsbet Martens"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000319",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=4538,879,202,91"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000319/index5",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Weijntje Willems"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000319",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=3784,963,556,90"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000319/index6",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -180,14 +155,14 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000319/index8",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000319/index7",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Lijsbet Martens"
+     "value": "Huijbert Sijmonsz"
     },
     {
      "type": "TextualBody",
@@ -199,7 +174,32 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000319",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=4538,879,202,91"
+     "value": "xywh=2408,2696,201,116"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000319/index8",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Aaltje Arents"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000319",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1667,2724,424,88"
     }
    }
   }

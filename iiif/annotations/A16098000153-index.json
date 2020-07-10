@@ -12,6 +12,56 @@
     {
      "type": "TextualBody",
      "language": "nl",
+     "value": "Trijntje Pieters"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000153",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=3748,400,667,87"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000153/index2",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Simon Evertsz Goijer"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000153",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=3792,487,952,80"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000153/index3",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
      "value": "Jan Cornelissen Haan"
     },
     {
@@ -25,56 +75,6 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=3745,929,639,82"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000153/index2",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Jan Ariaansz"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000153",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=4121,1078,811,69"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000153/index3",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Hendrick de Goijer"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000153",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=4112,1339,527,70"
     }
    }
   },
@@ -112,31 +112,6 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Trijntje Pieters"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000153",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=3748,400,667,87"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000153/index6",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
      "value": "Cornelis Jansz Haan"
     },
     {
@@ -155,14 +130,14 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000153/index7",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000153/index6",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Aaftje de Goijer"
+     "value": "Jan Ariaansz"
     },
     {
      "type": "TextualBody",
@@ -174,13 +149,13 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000153",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=3800,1328,229,72"
+     "value": "xywh=4121,1078,811,69"
     }
    }
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000153/index8",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000153/index7",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -205,32 +180,7 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000153/index9",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Simon Evertsz Goijer"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000153",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=3792,487,952,80"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000153/index10",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000153/index8",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -250,6 +200,56 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=3781,1295,727,50"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000153/index9",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Aaftje de Goijer"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000153",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=3800,1328,229,72"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000153/index10",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Hendrick de Goijer"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000153",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=4112,1339,527,70"
     }
    }
   },

@@ -12,31 +12,6 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Aafjen de Vrij"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000407",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=4253,1469,177,88"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000407/index2",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
      "value": "Cornelis Boom"
     },
     {
@@ -50,6 +25,31 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=3870,1400,469,79"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000407/index2",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Aafjen de Vrij"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000407",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=4253,1469,177,88"
     }
    }
   }

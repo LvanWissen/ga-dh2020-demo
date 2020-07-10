@@ -12,56 +12,6 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Passenhoven in Elsas"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Location"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000422",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=3842,274,629,110"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000422/index2",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Albert Harmansz"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000422",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=898,545,531,96"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000422/index3",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
      "value": "Jacob Gaucklaar"
     },
     {
@@ -80,7 +30,32 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000422/index4",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000422/index2",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Passenhoven in Elsas"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Location"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000422",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=3842,274,629,110"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000422/index3",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -100,6 +75,31 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=3665,528,666,109"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000422/index4",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Albert Harmansz"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000422",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=898,545,531,96"
     }
    }
   }

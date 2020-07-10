@@ -12,6 +12,31 @@
     {
      "type": "TextualBody",
      "language": "nl",
+     "value": "Hamborgh"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Location"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000413",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=4742,304,338,99"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000413/index2",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
      "value": "Jacob Becker"
     },
     {
@@ -30,7 +55,7 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000413/index2",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000413/index3",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -50,31 +75,6 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=1881,342,470,92"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000413/index3",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Hendrik Troosten"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000413",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=4458,716,559,110"
     }
    }
   },
@@ -137,31 +137,6 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Hamborgh"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Location"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000413",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=4742,304,338,99"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000413/index7",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
      "value": "Hendrick Lakeman"
     },
     {
@@ -175,6 +150,31 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=2053,559,474,81"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000413/index7",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Hendrik Troosten"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000413",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=4458,716,559,110"
     }
    }
   },

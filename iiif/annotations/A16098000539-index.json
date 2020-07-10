@@ -12,7 +12,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Commenijntje Cornelis"
+     "value": "Jan Willemsz Maes"
     },
     {
      "type": "TextualBody",
@@ -24,7 +24,7 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000539",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=1371,3327,389,155"
+     "value": "xywh=580,1437,569,80"
     }
    }
   },
@@ -62,31 +62,6 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Jan Willemsz Maes"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000539",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=580,1437,569,80"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000539/index4",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
      "value": "Lenard Joosten van Wijck"
     },
     {
@@ -105,7 +80,7 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000539/index5",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000539/index4",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -125,6 +100,31 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=2346,3253,262,130"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000539/index5",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Commenijntje Cornelis"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000539",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1371,3327,389,155"
     }
    }
   }

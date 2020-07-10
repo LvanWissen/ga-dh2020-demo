@@ -37,31 +37,6 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Allard Cornelisz"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000054",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1708,2241,711,107"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000054/index3",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
      "value": "Grietje Claes"
     },
     {
@@ -75,6 +50,31 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=1967,1865,637,87"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000054/index3",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Allard Cornelisz"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000054",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1708,2241,711,107"
     }
    }
   }

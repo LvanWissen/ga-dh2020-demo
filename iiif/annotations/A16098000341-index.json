@@ -12,7 +12,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Lutje Jacobsz"
+     "value": "Sis Thomasz"
     },
     {
      "type": "TextualBody",
@@ -24,7 +24,7 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000341",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=4100,2798,405,84"
+     "value": "xywh=4047,1445,379,98"
     }
    }
   },
@@ -62,6 +62,31 @@
     {
      "type": "TextualBody",
      "language": "nl",
+     "value": "Lutje Jacobsz"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000341",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=4100,2798,405,84"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000341/index4",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
      "value": "Hinloppen"
     },
     {
@@ -75,31 +100,6 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=2993,2855,377,97"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000341/index4",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Sis Thomasz"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000341",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=4047,1445,379,98"
     }
    }
   }

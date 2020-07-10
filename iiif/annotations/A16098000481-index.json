@@ -12,31 +12,6 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Jan Jansz Kerckhoff"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000481",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1584,3478,576,98"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000481/index2",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
      "value": "Geurt Anstenraat"
     },
     {
@@ -55,7 +30,7 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000481/index3",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000481/index2",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -75,6 +50,31 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=3679,3193,660,105"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000481/index3",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Jan Jansz Kerckhoff"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000481",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1584,3478,576,98"
     }
    }
   }

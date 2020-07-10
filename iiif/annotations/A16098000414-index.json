@@ -12,7 +12,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Susanneken Anthonis"
+     "value": "Jan Jochemsz"
     },
     {
      "type": "TextualBody",
@@ -24,63 +24,13 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000414",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=1932,1709,649,121"
+     "value": "xywh=795,152,449,116"
     }
    }
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
    "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000414/index2",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Abraham Matthijsz Beuckelman"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000414",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1145,1516,366,120"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000414/index3",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Isaak Matthijsz Beuckelman"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000414",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1593,1551,1014,116"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000414/index4",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -105,14 +55,14 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000414/index5",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000414/index3",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Weijntje Willems"
+     "value": "Willemtje Willems"
     },
     {
      "type": "TextualBody",
@@ -124,13 +74,13 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000414",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=1269,1794,591,90"
+     "value": "xywh=1996,1314,600,101"
     }
    }
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000414/index6",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000414/index4",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -155,14 +105,14 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000414/index7",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000414/index5",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Jan Jochemsz"
+     "value": "Abraham Matthijsz Beuckelman"
     },
     {
      "type": "TextualBody",
@@ -174,7 +124,57 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000414",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=795,152,449,116"
+     "value": "xywh=1145,1516,366,120"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000414/index6",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Isaak Matthijsz Beuckelman"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000414",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1593,1551,1014,116"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000414/index7",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Susanneken Anthonis"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000414",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1932,1709,649,121"
     }
    }
   },
@@ -187,7 +187,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Willemtje Willems"
+     "value": "Weijntje Willems"
     },
     {
      "type": "TextualBody",
@@ -199,7 +199,7 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000414",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=1996,1314,600,101"
+     "value": "xywh=1269,1794,591,90"
     }
    }
   }

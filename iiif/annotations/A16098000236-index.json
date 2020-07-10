@@ -12,7 +12,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Susanneke Anthonis"
+     "value": "Annetje Grims"
     },
     {
      "type": "TextualBody",
@@ -24,63 +24,13 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000236",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=3764,2781,454,59"
+     "value": "xywh=4547,1769,276,97"
     }
    }
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
    "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000236/index2",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Pieter van der Hagen"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000236",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=3936,2034,651,69"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000236/index3",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Weijntje Willems"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000236",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=4250,2746,296,92"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000236/index4",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -105,14 +55,14 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000236/index5",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000236/index3",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Annetje Grims"
+     "value": "Pieter van der Hagen"
     },
     {
      "type": "TextualBody",
@@ -124,7 +74,57 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000236",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=4547,1769,276,97"
+     "value": "xywh=3936,2034,651,69"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000236/index4",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Weijntje Willems"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000236",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=4250,2746,296,92"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000236/index5",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Susanneke Anthonis"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000236",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=3764,2781,454,59"
     }
    }
   }

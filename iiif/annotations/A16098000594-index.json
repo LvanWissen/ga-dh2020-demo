@@ -37,100 +37,25 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Aeltje Claas Troost"
+     "value": "Wagenen"
     },
     {
      "type": "TextualBody",
      "purpose": "tagging",
-     "value": "Person"
+     "value": "Location"
     }
    ],
    "target": {
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000594",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=2229,2533,246,76"
+     "value": "xywh=1790,1857,280,105"
     }
    }
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
    "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000594/index3",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Belitje Jans Troost"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000594",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1755,2670,601,96"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000594/index4",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Evert Claasz Troost"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000594",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1796,2437,683,88"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000594/index5",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Jan Claasz Troost"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000594",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1806,2750,586,88"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000594/index6",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -155,32 +80,7 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000594/index7",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Wagenen"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Location"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000594",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1790,1857,280,105"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000594/index8",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000594/index4",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -205,7 +105,57 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000594/index9",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000594/index5",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Evert Claasz Troost"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000594",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1796,2437,683,88"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000594/index6",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Aeltje Claas Troost"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000594",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=2229,2533,246,76"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000594/index7",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -225,6 +175,56 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=2547,2561,164,72"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000594/index8",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Belitje Jans Troost"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000594",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1755,2670,601,96"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000594/index9",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Jan Claasz Troost"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000594",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1806,2750,586,88"
     }
    }
   }

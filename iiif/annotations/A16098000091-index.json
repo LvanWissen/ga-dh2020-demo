@@ -12,31 +12,6 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Jan Martensz"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000091",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1630,3028,321,65"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index2",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
      "value": "Lechtevoort"
     },
     {
@@ -55,82 +30,7 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index3",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Aechtje Gerrits"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000091",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1750,3079,499,68"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index4",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Jan Reijndertsz"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000091",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1631,2803,385,71"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index5",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Jacob Martsz"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000091",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1093,3031,192,68"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index6",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index2",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -155,39 +55,14 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index7",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index3",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Schagen"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Location"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000091",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1110,3091,202,60"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index8",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Neeltje Martsz"
+     "value": "Jan Reijndertsz"
     },
     {
      "type": "TextualBody",
@@ -199,20 +74,20 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000091",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=1308,3031,233,73"
+     "value": "xywh=1631,2803,385,71"
     }
    }
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index9",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index4",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Marten Willemsz"
+     "value": "Govert van Outvorst"
     },
     {
      "type": "TextualBody",
@@ -224,13 +99,13 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000091",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=2269,3020,380,63"
+     "value": "xywh=1985,2902,665,71"
     }
    }
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index10",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index5",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -255,14 +130,14 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index11",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index6",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Govert van Outvorst"
+     "value": "Marten Willemsz"
     },
     {
      "type": "TextualBody",
@@ -274,7 +149,132 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000091",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=1985,2902,665,71"
+     "value": "xywh=2269,3020,380,63"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index7",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Jan Martensz"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000091",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1630,3028,321,65"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index8",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Jacob Martsz"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000091",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1093,3031,192,68"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index9",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Neeltje Martsz"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000091",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1308,3031,233,73"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index10",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Aechtje Gerrits"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000091",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1750,3079,499,68"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000091/index11",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Schagen"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Location"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000091",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1110,3091,202,60"
     }
    }
   }

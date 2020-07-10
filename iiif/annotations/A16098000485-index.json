@@ -12,7 +12,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Samuel Cornel"
+     "value": "Hendrik Jansz Buijs"
     },
     {
      "type": "TextualBody",
@@ -24,38 +24,13 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000485",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=3695,3277,457,110"
+     "value": "xywh=4487,245,625,98"
     }
    }
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
    "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000485/index2",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Purmerent"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Location"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000485",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=3863,2354,304,86"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000485/index3",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -75,6 +50,31 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=4494,412,416,120"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000485/index3",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Purmerent"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Location"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000485",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=3863,2354,304,86"
     }
    }
   },
@@ -112,7 +112,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Hendrik Jansz Buijs"
+     "value": "Samuel Cornel"
     },
     {
      "type": "TextualBody",
@@ -124,7 +124,7 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000485",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=4487,245,625,98"
+     "value": "xywh=3695,3277,457,110"
     }
    }
   }

@@ -37,7 +37,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Weijntje Willems"
+     "value": "Giertje Arents"
     },
     {
      "type": "TextualBody",
@@ -49,7 +49,7 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000498",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=1130,820,196,63"
+     "value": "xywh=656,588,399,74"
     }
    }
   },
@@ -87,7 +87,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Giertje Arents"
+     "value": "Weijntje Willems"
     },
     {
      "type": "TextualBody",
@@ -99,13 +99,38 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000498",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=656,588,399,74"
+     "value": "xywh=1130,820,196,63"
     }
    }
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
    "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000498/index5",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Pieter Reijndertsz"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000498",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=2635,891,119,75"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000498/index6",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -125,31 +150,6 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=2289,904,330,60"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000498/index6",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Jannetje Jacobs"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000498",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1797,1029,427,69"
     }
    }
   },
@@ -187,7 +187,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Pieter Reijndertsz"
+     "value": "Jannetje Jacobs"
     },
     {
      "type": "TextualBody",
@@ -199,7 +199,7 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000498",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=2635,891,119,75"
+     "value": "xywh=1797,1029,427,69"
     }
    }
   }

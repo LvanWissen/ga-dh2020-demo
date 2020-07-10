@@ -12,56 +12,6 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Paullus Vattijn"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000374",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1703,752,537,89"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000374/index2",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "@@@kert Gerritsz Kieft"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000374",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=3954,2822,377,85"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000374/index3",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
      "value": "Jaspar de Meert"
     },
     {
@@ -75,6 +25,56 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=1778,377,514,113"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000374/index2",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Jaspar de Meert de jonge"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000374",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=2215,666,385,109"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000374/index3",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Paullus Vattijn"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000374",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1703,752,537,89"
     }
    }
   },
@@ -137,6 +137,31 @@
     {
      "type": "TextualBody",
      "language": "nl",
+     "value": "Wijnderick Kieft"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000374",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1796,898,438,129"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000374/index7",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
      "value": "Margriet de Meert"
     },
     {
@@ -155,31 +180,6 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000374/index7",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Jaspar de Meert de jonge"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000374",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=2215,666,385,109"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
    "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000374/index8",
    "type": "Annotation",
    "motivation": "commenting",
@@ -187,7 +187,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Wijnderick Kieft"
+     "value": "@@@kert Gerritsz Kieft"
     },
     {
      "type": "TextualBody",
@@ -199,7 +199,7 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000374",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=1796,898,438,129"
+     "value": "xywh=3954,2822,377,85"
     }
    }
   }

@@ -12,7 +12,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Hendrick Hendricxsz"
+     "value": "Giertje Theunis"
     },
     {
      "type": "TextualBody",
@@ -24,7 +24,7 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000023",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=4266,387,612,98"
+     "value": "xywh=3677,215,541,80"
     }
    }
   },
@@ -62,31 +62,6 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Giertje Theunis"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000023",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=3677,215,541,80"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000023/index4",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
      "value": "Theunis Theunisz"
     },
     {
@@ -105,57 +80,32 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000023/index4",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Hendrick Hendricxsz"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000023",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=4266,387,612,98"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
    "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000023/index5",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Albert Melchertsz"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000023",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=253,1908,552,102"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000023/index6",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Gerrit Schuijlenburch"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000023",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=866,1944,859,89"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000023/index7",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -180,7 +130,7 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000023/index8",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000023/index6",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -200,6 +150,56 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=1389,1892,759,71"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000023/index7",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Albert Melchertsz"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000023",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=253,1908,552,102"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000023/index8",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Gerrit Schuijlenburch"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000023",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=866,1944,859,89"
     }
    }
   }

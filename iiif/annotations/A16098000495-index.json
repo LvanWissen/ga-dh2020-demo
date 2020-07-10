@@ -12,7 +12,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Oloff Rijcken"
+     "value": "Rijck Jansz"
     },
     {
      "type": "TextualBody",
@@ -24,63 +24,13 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000495",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=1450,1032,348,79"
+     "value": "xywh=1892,481,340,69"
     }
    }
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
    "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000495/index2",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Aaltje Olofs"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000495",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=2044,1191,198,84"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000495/index3",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Josias Romburgh"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000495",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=2145,1112,477,88"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000495/index4",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -105,7 +55,82 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000495/index3",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Oloff Rijcken"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000495",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1450,1032,348,79"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000495/index4",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Harman Witten"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000495",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1444,1101,427,99"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
    "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000495/index5",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Josias Romburgh"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000495",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=2145,1112,477,88"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000495/index6",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -130,31 +155,6 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000495/index6",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Rijck Jansz"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000495",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1892,481,340,69"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
    "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000495/index7",
    "type": "Annotation",
    "motivation": "commenting",
@@ -162,7 +162,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Harman Witten"
+     "value": "Aaltje Olofs"
     },
     {
      "type": "TextualBody",
@@ -174,7 +174,7 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000495",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=1444,1101,427,99"
+     "value": "xywh=2044,1191,198,84"
     }
    }
   },

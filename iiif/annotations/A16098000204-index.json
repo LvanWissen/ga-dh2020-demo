@@ -37,6 +37,31 @@
     {
      "type": "TextualBody",
      "language": "nl",
+     "value": "Vianen"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Location"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000204",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=3491,1220,903,84"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000204/index3",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
      "value": "\u2018s-Hartogenbosch"
     },
     {
@@ -55,7 +80,7 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000204/index3",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000204/index4",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -80,7 +105,7 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000204/index4",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000204/index5",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -100,31 +125,6 @@
     "selector": {
      "type": "FragmentSelector",
      "value": "xywh=3747,1705,685,136"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000204/index5",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Vianen"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Location"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000204",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=3491,1220,903,84"
     }
    }
   }

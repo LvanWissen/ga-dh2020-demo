@@ -12,7 +12,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Lijsebet Martens"
+     "value": "Matthias van Gherwen"
     },
     {
      "type": "TextualBody",
@@ -24,13 +24,38 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000202",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=2029,1338,474,55"
+     "value": "xywh=1073,483,803,82"
     }
    }
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
    "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000202/index2",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Johan van de Poll"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000202",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1095,746,589,74"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000202/index3",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
@@ -55,14 +80,14 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000202/index3",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000202/index4",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Matthias van Gherwen"
+     "value": "Duijffje van Gherwen"
     },
     {
      "type": "TextualBody",
@@ -74,32 +99,7 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000202",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=1073,483,803,82"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000202/index4",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
-     "value": "Banne van Mijdrecht"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Location"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000202",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=1153,1871,709,76"
+     "value": "xywh=1449,909,681,52"
     }
    }
   },
@@ -112,7 +112,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Johan van de Poll"
+     "value": "IJda van Gherwen"
     },
     {
      "type": "TextualBody",
@@ -124,7 +124,7 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000202",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=1095,746,589,74"
+     "value": "xywh=2044,1022,445,71"
     }
    }
   },
@@ -162,7 +162,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Duijffje van Gherwen"
+     "value": "Lijsebet Martens"
     },
     {
      "type": "TextualBody",
@@ -174,7 +174,7 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000202",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=1449,909,681,52"
+     "value": "xywh=2029,1338,474,55"
     }
    }
   },
@@ -212,19 +212,19 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "IJda van Gherwen"
+     "value": "Banne van Mijdrecht"
     },
     {
      "type": "TextualBody",
      "purpose": "tagging",
-     "value": "Person"
+     "value": "Location"
     }
    ],
    "target": {
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000202",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=2044,1022,445,71"
+     "value": "xywh=1153,1871,709,76"
     }
    }
   }

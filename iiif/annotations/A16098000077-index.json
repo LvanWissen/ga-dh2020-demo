@@ -12,7 +12,7 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Cornelis Hendricksz Kloes"
+     "value": "Cornelis Claesz Kleutingh"
     },
     {
      "type": "TextualBody",
@@ -24,7 +24,7 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000077",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=1174,3248,989,87"
+     "value": "xywh=4061,322,1034,105"
     }
    }
   },
@@ -62,31 +62,6 @@
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Joost Jansz den Aap"
-    },
-    {
-     "type": "TextualBody",
-     "purpose": "tagging",
-     "value": "Person"
-    }
-   ],
-   "target": {
-    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000077",
-    "selector": {
-     "type": "FragmentSelector",
-     "value": "xywh=2134,3181,524,94"
-    }
-   }
-  },
-  {
-   "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000077/index4",
-   "type": "Annotation",
-   "motivation": "commenting",
-   "body": [
-    {
-     "type": "TextualBody",
-     "language": "nl",
      "value": "Annetje Hendricx"
     },
     {
@@ -105,14 +80,14 @@
   },
   {
    "@context": "http://iiif.io/api/presentation/3/context.json",
-   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000077/index5",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000077/index4",
    "type": "Annotation",
    "motivation": "commenting",
    "body": [
     {
      "type": "TextualBody",
      "language": "nl",
-     "value": "Cornelis Claesz Kleutingh"
+     "value": "Joost Jansz den Aap"
     },
     {
      "type": "TextualBody",
@@ -124,7 +99,32 @@
     "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000077",
     "selector": {
      "type": "FragmentSelector",
-     "value": "xywh=4061,322,1034,105"
+     "value": "xywh=2134,3181,524,94"
+    }
+   }
+  },
+  {
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "https://data.goldenagents.org/datasets/dh2020/annotation/A16098000077/index5",
+   "type": "Annotation",
+   "motivation": "commenting",
+   "body": [
+    {
+     "type": "TextualBody",
+     "language": "nl",
+     "value": "Cornelis Hendricksz Kloes"
+    },
+    {
+     "type": "TextualBody",
+     "purpose": "tagging",
+     "value": "Person"
+    }
+   ],
+   "target": {
+    "id": "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000077",
+    "selector": {
+     "type": "FragmentSelector",
+     "value": "xywh=1174,3248,989,87"
     }
    }
   }

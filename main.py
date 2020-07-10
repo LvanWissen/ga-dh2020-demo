@@ -169,7 +169,7 @@ def createManifest(imagefolder: str,
         "behavior": ["individuals"],
         "start": {
             "id":
-            "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000004",
+            "https://data.goldenagents.org/datasets/dh2020/canvas/A16098000033",
             "type": "Canvas"
         },
         "items": []
@@ -226,14 +226,15 @@ def createManifest(imagefolder: str,
             }
 
             for k, v in md.items():
-                metadata.append({
-                    "label": {
-                        "en": [k]
-                    },
-                    "value": {
-                        "nl": [v] if type(v) == str else v
-                    }
-                })
+                if v:
+                    metadata.append({
+                        "label": {
+                            "en": [k]
+                        },
+                        "value": {
+                            "nl": [v] if type(v) == str else v
+                        }
+                    })
 
         canvas = getCanvas(imagepath,
                            annotationpath,
@@ -357,6 +358,8 @@ def getAnnotationPage(target: Union[str, URIRef],
         for region in annotations['PcGts']['Page']['elements']:
             for a in region['elements']:
 
+                annoid = nsAnno.term(f"{baseFilename}/{a['attributes']['id']}")
+
                 coordinates = a['geometry']['coords']
                 if coordinates is None:
                     continue
@@ -373,18 +376,32 @@ def getAnnotationPage(target: Union[str, URIRef],
                 if bodyValue.strip() is "":  # not interested in empty anno
                     continue
 
-                body = {
+                body = []
+
+                # first the text itself (HTR)
+                textualBody = {
                     "type": "TextualBody",
                     "language": "nl",
                     "value": bodyValue
                 }
+                body.append(textualBody)
 
-                anno = getAnnotation(
-                    target=targetselector,
-                    motivation=motivation,
-                    body=[body],
-                    annoid=nsAnno.term(
-                        f"{baseFilename}/{a['attributes']['id']}"))
+                # then the transcription (Getty/Frick)
+                #TODO
+
+                # AAT, ULAN (as tagging)
+                #TODO
+
+                # ICONCLASS (as tagging + image)
+                #TODO
+
+                # Maybe alter the color of the SVGselector?
+                #TODO
+
+                anno = getAnnotation(target=targetselector,
+                                     motivation=motivation,
+                                     body=body,
+                                     annoid=annoid)
 
                 items.append(anno)
 
@@ -503,7 +520,7 @@ def getSVG(coordinates: Union[list, tuple],
     points += f" L {coordinates[0]['x']},{coordinates[0]['y']} Z"  # repeat the first point and close
 
     svg = etree.Element("svg", xmlns="http://www.w3.org/2000/svg")
-    path = etree.SubElement(
+    _ = etree.SubElement(
         svg, "path", **{
             "fill-rule": "evenodd",
             "fill": color,
