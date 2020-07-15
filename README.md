@@ -70,3 +70,33 @@ SELECT DISTINCT ?image ?type ?label ?coords WHERE {
 
 } ORDER BY ?image
 ```
+
+Getting all the items
+```SPARQL
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>
+PREFIX oa: <http://www.w3.org/ns/oa#>
+PREFIX saa: <https://data.goldenagents.org/datasets/SAA/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT * WHERE {
+  ?inventory saa:documentedIn/saa:inventoryNumber "2408" ;
+             saa:content ?item .
+  
+  ?item rdfs:label ?label ;
+        prov:wasDerivedFrom ?annotation .
+  
+  BIND(STRAFTER(STR(?annotation), 'Scan/') AS ?annoid)
+  
+       OPTIONAL { ?item saa:room ?room . }
+  	   OPTIONAL { ?item saa:iconclass ?iconclass . }
+      OPTIONAL { ?item  saa:subject ?subject . }
+      OPTIONAL { ?item saa:workType ?type . }
+      OPTIONAL { ?item saa:identifier ?identifier . }
+      OPTIONAL { ?item saa:transcription ?transcription . }
+      OPTIONAL { ?item saa:artist ?artist . }
+  	OPTIONAL { ?item saa:valuation ?valuation . }
+  
+}
+```

@@ -18,10 +18,12 @@ nsAnno = Namespace("https://data.goldenagents.org/datasets/dh2020/annotation/")
 def main(imagefolder: str,
          annotationfolder: str = None,
          nameslocationsfile: str = None,
-         canvasmetadatafile: str = None):
+         canvasmetadatafile: str = None,
+         matcheditemsfile: str = None):
 
     manifest = createManifest(imagefolder, annotationfolder,
-                              nameslocationsfile, canvasmetadatafile)
+                              nameslocationsfile, canvasmetadatafile,
+                              matcheditemsfile)
 
     with open('iiif/manifest.json', 'w') as outfile:
         json.dump(manifest, outfile, indent=2)
@@ -30,7 +32,8 @@ def main(imagefolder: str,
 def createManifest(imagefolder: str,
                    annotationfolder: str = None,
                    nameslocationsfile: str = None,
-                   canvasmetadatafile: str = None):
+                   canvasmetadatafile: str = None,
+                   matcheditemsfile: str = None):
 
     manifest = {
         "@context": [
@@ -189,6 +192,12 @@ def createManifest(imagefolder: str,
     else:
         canvasmetadata = dict()
 
+    if matcheditemsfile:
+        with open(matcheditemsfile) as infile:
+            matcheditems = json.load(infile)
+    else:
+        matcheditems = dict()
+
     for fn in sorted(os.listdir(imagefolder)):
         imagepath = os.path.join(imagefolder, fn)
 
@@ -248,7 +257,8 @@ def createManifest(imagefolder: str,
         canvas = getCanvas(imagepath,
                            annotationpath,
                            nameslocations,
-                           metadata=metadata)
+                           metadata=metadata,
+                           matcheditems=matcheditems)
         items.append(canvas)
 
     manifest["items"] = items
@@ -260,7 +270,8 @@ def getCanvas(imagepath: str,
               annotationpath: str = None,
               nameslocations: list = None,
               canvasid: str = None,
-              metadata: list = []) -> dict:
+              metadata: list = [],
+              matcheditems: dict = None) -> dict:
 
     _, filename = os.path.split(imagepath)
     baseFilename, ext = os.path.splitext(filename)
@@ -309,6 +320,7 @@ def getCanvas(imagepath: str,
             motivation='supplementing',
             annopageid=f'iiif/annotations/{baseFilename}-htr.json',
             annotationpath=annotationpath,
+            matcheditems=matcheditems,
             embedded=False)
 
         annotations.append(ap)
@@ -329,6 +341,7 @@ def getAnnotationPage(target: Union[str, URIRef],
                       annopageid: str = None,
                       annotationpath: str = None,
                       nameslocations: list = None,
+                      matcheditems: dict = None,
                       embedded: bool = True) -> dict:
 
     if annopageid is None and imagepath:
@@ -367,7 +380,16 @@ def getAnnotationPage(target: Union[str, URIRef],
         for region in annotations['PcGts']['Page']['elements']:
             for a in region['elements']:
 
-                annoid = nsAnno.term(f"{baseFilename}/{a['attributes']['id']}")
+                annoMatchId = f"{baseFilename}{a['attributes']['id']}"
+                annoid = nsAnno.term(annoMatchId)
+
+                # Getty / Frick data
+                matchedItem = matcheditems.get(annoMatchId, {})
+
+                if matchedItem:
+                    color = '#11aa09'
+                else:
+                    color = '#f9b942'
 
                 coordinates = a['geometry']['coords']
                 if coordinates is None:
@@ -377,7 +399,7 @@ def getAnnotationPage(target: Union[str, URIRef],
                     "id": target,
                     "selector": {
                         "type": "SvgSelector",
-                        "value": getSVG(coordinates)
+                        "value": getSVG(coordinates, color=color)
                     }
                 }
 
@@ -391,21 +413,121 @@ def getAnnotationPage(target: Union[str, URIRef],
                 textualBody = {
                     "type": "TextualBody",
                     "language": "nl",
-                    "value": bodyValue
+                    "value": "<p><b>HTR</b><br>" + bodyValue + "</p>"
                 }
                 body.append(textualBody)
 
-                # then the transcription (Getty/Frick)
-                #TODO
+                # Getty / Frick items
+                if matchedItem:
 
-                # AAT, ULAN (as tagging)
-                #TODO
+                    ## Getty
+                    matchedItemGetty = matcheditems.get(annoMatchId,
+                                                        {}).get('getty')
 
-                # ICONCLASS (as tagging + image)
-                #TODO
+                    if matchedItemGetty:
 
-                # Maybe alter the color of the SVGselector?
-                #TODO
+                        properties = {
+                            'label': matchedItemGetty['label'],
+                            'transcription': matchedItemGetty['transcription'],
+                            'type': matchedItemGetty['type'],
+                            'artist': matchedItemGetty['artist'],
+                            'room': matchedItemGetty['room'],
+                            'valuation': matchedItemGetty['valuation'],
+                            'subject': matchedItemGetty['subject'],
+                            'iconclass': matchedItemGetty['iconclass'],
+                            'identifier': matchedItemGetty['identifier']
+                        }
+
+                        value = "<br>\n".join(
+                            f"<span>{key.title()}: </span>{value}"
+                            for key, value in properties.items() if value)
+
+                        textualBody = {
+                            "type":
+                            "TextualBody",
+                            "language":
+                            "nl",
+                            "value":
+                            f"""<p>
+                                  <b>Getty Provenance Index</b><br>
+                                  {value}
+                                </p>"""
+                        }
+                        body.append(textualBody)
+
+                        ### Then the tags
+                        tagBodyType = {
+                            "type": "TextualBody",
+                            "purpose": "tagging",  # for a nice tag!
+                            "value": matchedItemGetty['type']
+                        }
+                        body.append(tagBodyType)
+
+                        if matchedItemGetty['iconclass']:
+                            tagBodyIconclass = {
+                                "type": "TextualBody",
+                                "purpose": "tagging",  # for a nice tag!
+                                "value": matchedItemGetty['iconclass']
+                            }
+                            body.append(tagBodyIconclass)
+
+                    ## Frick
+                    matchedItemFrick = matchedItem.get('frick')
+                    if matchedItemFrick:
+
+                        properties = {
+                            'label':
+                            matchedItemFrick['label'],
+                            'transcription':
+                            matchedItemFrick['transcription'],
+                            'type':
+                            matchedItemFrick['type'],
+                            'artist':
+                            matchedItemFrick['artist'],
+                            'room':
+                            matchedItemFrick['room'],
+                            'valuation':
+                            matchedItemFrick['valuation'],
+                            'subject':
+                            matchedItemFrick['subject'],
+                            'iconclass':
+                            matchedItemFrick['iconclass'],
+                            'identifier':
+                            f'<a href="https://research.frick.org/montias/inventoryList/{matchedItemFrick["identifier"].replace(".", "#A", 1)}">{matchedItemFrick["identifier"]}</a>'
+                        }
+
+                        value = "<br>\n".join(
+                            f"<span>{key.title()}: </span>{value}"
+                            for key, value in properties.items() if value)
+
+                        textualBody = {
+                            "type":
+                            "TextualBody",
+                            "language":
+                            "nl",
+                            "value":
+                            f"""<p>
+                                  <b>The Frick Collection</b><br>
+                                  {value}
+                                </p>"""
+                        }
+                        body.append(textualBody)
+
+                        ### Then the tags
+                        tagBodyType = {
+                            "type": "TextualBody",
+                            "purpose": "tagging",  # for a nice tag!
+                            "value": matchedItemFrick['type']
+                        }
+                        body.append(tagBodyType)
+
+                        if matchedItemFrick['iconclass']:
+                            tagBodyIconclass = {
+                                "type": "TextualBody",
+                                "purpose": "tagging",  # for a nice tag!
+                                "value": matchedItemFrick['iconclass']
+                            }
+                            body.append(tagBodyIconclass)
 
                 anno = getAnnotation(target=targetselector,
                                      motivation=motivation,
@@ -434,7 +556,7 @@ def getAnnotationPage(target: Union[str, URIRef],
                 {
                     "type": "TextualBody",
                     "language": "nl",
-                    "value": a['label']
+                    "value": f'<p><b>Index</b><br>{a["label"]}</p>'
                 },
                 {
                     "type": "TextualBody",
@@ -546,4 +668,5 @@ if __name__ == "__main__":
     main(imagefolder='images/2408/',
          annotationfolder='data/htr/2408/',
          nameslocationsfile='data/2408_nameslocations.json',
-         canvasmetadatafile='data/2408_canvasmetadata.json')
+         canvasmetadatafile='data/2408_canvasmetadata.json',
+         matcheditemsfile='data/2408_itemsmetadata.json')
