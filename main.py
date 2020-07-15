@@ -222,8 +222,17 @@ def createManifest(imagefolder: str,
                 'Notary': canvasmeta['notary'],
                 'Persons': canvasmeta['persons'],
                 'Locations': canvasmeta['locations'],
-                'Identifier': canvasmeta['identifier']
+                'Amsterdam City Archives id': canvasmeta['identifier']
             }
+
+            # Getty inventory
+            if 'getty' in canvasmeta:
+                md['Getty Provenance Index id'] = canvasmeta['getty'][
+                    'identifier']
+
+            # Frick inventory
+            if 'frick' in canvasmeta:
+                md['The Frick Collection id'] = f"<a href={canvasmeta['frick']['url']}>{canvasmeta['frick']['identifier']}</a>"
 
             for k, v in md.items():
                 if v:
