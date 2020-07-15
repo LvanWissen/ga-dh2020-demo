@@ -56,17 +56,63 @@
         License</a>.
       <br>
       Source code for this demo can be found in this repository: <a href="https://github.com/lvanwissen/ga-dh2020-demo/"
-        class="external">https://github.com/lvanwissen/ga-dh2020-demo/</a></p>
+        class="external">https://github.com/lvanwissen/ga-dh2020-demo/</a>. For questions regarding this demo,
+      please contact: <a href="mailto:l.vanwissen@uva.nl">l.vanwissen@uva.nl</a>.</p>
   </div>
 
   <hr>
   <div class="body">
+    <h2>Introduction</h2>
+    <p>The demo shows the intersection of datasets the <a href="https://www.goldenagents.org/" class="external">Golden
+        Agents project</a> is working with, as shown on top of a single archival book (NA 2408) from the <a
+        href="https://archief.amsterdam/" class="external">Amsterdam City Archives</a>. The demo is built with Mirador
+      version 3 and uses the iiif-presentation API version 3. The images that are shown are coming from a static source,
+      but can be served by a iiif-server, serving the image API.
+    </p>
+
+    <p>
+      Every Canvas in this manifest shows a scan of a double page spread of this archival book that is dated around 1648
+      and contains mostly probate or estate inventories taken by a single notary. In these notarial deeds, the contents
+      of a house are described, as part of a legal documentation of someones belongings and therefore possible
+      inheritance. Every notarial deed in this book consists of one or multiple pages and therefore scans. This
+      information is coming from the <b>(1) index on this book</b> that the Archives provide, in which they already
+      identified the type of deed, its date, the persons that are mentioned, and the respective pages it is listed on.
+      Secondly, separate from this, an <b>(2) HTR-output</b> is provided through the Transkribus tool, that gives the
+      transcription of every text line it has automatically identified.
+    </p>
+
+    <p>
+      Finally, on top of this, we have the transcriptions that were once made by economist and art-historian <a
+        href="https://en.wikipedia.org/wiki/John_Michael_Montias" class="external">John Michael Montias</a>, who during
+      his life worked at the J. Paul Getty Trust in Los Angeles and later continued his work at The Frick
+      Collection in New York. Although sharing the same starting point, the two datasets he left behind at the
+      respective institutes with provenance information on the probate inventories' owners and their belongings were
+      each expanded, complemented, and corrected separately. Nowadays the data can be found in the <b>(3) Getty
+        provenance Index</b> and in the <b>(4) Frick Collection's Montias Database of 17th Century Dutch Art
+        Inventories</b>.
+    </p>
+
+    <p>
+      Bringing these four datasets together gives a modern day digital humanities art historical scholar the right
+      material to asses the validity of these transcriptions and the claims that were made on top of these descriptions.
+      By directly going back to the archival material, it becomes immediately apparent that only a fraction of these
+      inventories has been transcribed. Not only does this provide the necessary context for the item descriptions, it
+      also highlights differences in spelling and classification, that are the result of changing interpretation
+      strategies of the researchers working with this material.
+    </p>
+
+    <p>
+      This demo shows the possibilities and the ease of working with archival material by transparently showing the
+      resources from various content provides on top of each other.
+    </p>
+
     <h2>Demo</h2>
-    <p>N.B.: Using a RC version of <a href="https://projectmirador.org/" class="external">Mirador 3</a>.
+    <p>N.B.: Using a RC version of <a href=" https://projectmirador.org/" class="external">Mirador 3</a>.
       Images served as static (image API level 0). You can try the
       <a href="https://lvanwissen.github.io/ga-dh2020-demo/iiif/manifest.json" class="external">manifest.json</a> in any
-      viewer that supports
-      annotations and the iiif Prezi 3.0 framework.</p>
+      viewer that supports annotations and the iiif Prezi 3.0 framework. Not all pages have been transcribed (through
+      HTR), and not all listed record have an equal entry in the datasets of the Getty Provenance Index and the Frick's
+      Montias Database. The line annotation highlighted in green include items from the Getty/Frick datasets.</p>
   </div>
   <div id="mirador"></div>
 
