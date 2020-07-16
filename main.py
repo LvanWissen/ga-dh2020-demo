@@ -250,7 +250,7 @@ def createManifest(imagefolder: str,
                             "en": [k]
                         },
                         "value": {
-                            "nl": [v] if type(v) == str else v
+                            "en": [v] if type(v) == str else v
                         }
                     })
 
