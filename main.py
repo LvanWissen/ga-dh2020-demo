@@ -238,11 +238,24 @@ def createManifest(imagefolder: str,
             if 'getty' in canvasmeta:
                 md['Getty Provenance Index id'] = canvasmeta['getty'][
                     'identifier']
+                if canvasmeta['getty'].get('owners'):
+                    md['Owners (Getty)'] = canvasmeta['getty']['owners']
+                if canvasmeta['getty'].get('appraisers'):
+                    md['Appraisers (Getty)'] = canvasmeta['getty'][
+                        'appraisers']
+                if canvasmeta['getty'].get('comments'):
+                    md['Comments (Getty)'] = canvasmeta['getty']['comments']
 
             # Frick inventory
             if 'frick' in canvasmeta:
                 md['The Frick Collection id'] = f"<a href={canvasmeta['frick']['url']}>{canvasmeta['frick']['identifier']}</a>"
-
+                if canvasmeta['frick'].get('owners'):
+                    md['Owners (Frick)'] = canvasmeta['frick']['owners']
+                if canvasmeta['frick'].get('appraisers'):
+                    md['Appraisers (Frick)'] = canvasmeta['frick'][
+                        'appraisers']
+                if canvasmeta['frick'].get('comments'):
+                    md['Comments (Frick)'] = canvasmeta['frick']['comments']
             for k, v in md.items():
                 if v:
                     metadata.append({
@@ -427,15 +440,26 @@ def getAnnotationPage(target: Union[str, URIRef],
                     if matchedItemGetty:
 
                         properties = {
-                            'label': matchedItemGetty['label'],
-                            'transcription': matchedItemGetty['transcription'],
-                            'type': matchedItemGetty['type'],
-                            'artist': matchedItemGetty['artist'],
-                            'room': matchedItemGetty['room'],
-                            'valuation': matchedItemGetty['valuation'],
-                            'subject': matchedItemGetty['subject'],
-                            'iconclass': matchedItemGetty['iconclass'],
-                            'identifier': matchedItemGetty['identifier']
+                            'label':
+                            matchedItemGetty['label'],
+                            'transcription':
+                            matchedItemGetty['transcription'],
+                            'type':
+                            f'Schilderij [<a href="http://vocab.getty.edu/aat/300177435">AAT</a>]'
+                            if matchedItemGetty['type'] == 'Schilderij' else
+                            matchedItemGetty['type'],
+                            'artist':
+                            matchedItemGetty['artist'],
+                            'room':
+                            matchedItemGetty['room'],
+                            'valuation':
+                            matchedItemGetty['valuation'],
+                            'subject':
+                            matchedItemGetty['subject'],
+                            'iconclass':
+                            f'{matchedItemGetty["iconclass"]} [<a href="http://iconclass.org/{matchedItemGetty["iconclass"]}">ICONCLASS</a>]' if {matchedItemGetty["iconclass"]} else None,
+                            'identifier':
+                            matchedItemGetty['identifier']
                         }
 
                         value = "<br>\n".join(
