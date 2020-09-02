@@ -1,102 +1,25 @@
-# ga-dh2020-demo
-Golden Agents DH2020 demo
+# Golden Agents DH2020 demo
 
-Images are served through Image API level 0 (static) and are therefore shrunk to 75% quality. The full archive can be browsed at https://archief.amsterdam/5075/2408.
+| License     |                                                                                                                                                   |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Source code | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)                                       |
+| Data        | [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/) |
+
+For background information and references, see our [paper](https://dh2020.adho.org/wp-content/uploads/2020/07/137_TheMontiasCaseanexperimentwithdatareconciliationandprovenancebetweenresearchandculturalheritageinstitutions.html).
+
+The demo shows the intersection of datasets the Golden Agents project (https://www.goldenagents.org/) is working with, as shown on top of a single archival book (NA 2408) from the Amsterdam City Archives (https://archief.amsterdam/). The demo is built with Mirador version 3 and uses the iiif Presentation API version 3.0. The images that are shown are coming from a static source, but can be served by a iiif-server, serving the image API.
 
 ## Data
 
-### Queries
+Images are served through Image API level 0 (static) and are therefore shrunk to 75% quality. The full archive can be browsed at https://archief.amsterdam/5075/2408.
 
-`canvasmetadata`
+Other data is aggregated in the Golden Agents project (https://www.goldenagents.org/) and will be available in due time. 
 
-For getting the metadata from the index records
+## License and citation
 
-```SPARQL
-PREFIX pnv: <https://w3id.org/pnv#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX saa: <https://data.goldenagents.org/datasets/SAA/ontology/>
+Scripts in this repository are published under the MIT license. Other files and data are licensed under a CC-BY-SA 4.0 license. 
 
-SELECT * WHERE {
+* Leon van Wissen, Chiara Latronico, Sandra van Ginhoven, Veruska Zamborlini (2020). The Montias Case: an experiment with data reconciliation and provenance between research and cultural heritage institutions. In: [Book of Abstracts DH2020](https://dh2020.adho.org/wp-content/uploads/2020/07/137_TheMontiasCaseanexperimentwithdatareconciliationandprovenancebetweenresearchandculturalheritageinstitutions.html), ADHO.
 
-  ?deed saa:actType ?actType ;
-        saa:registrationDate ?registrationDate ;
-        saa:identifier ?identifier ;
-        saa:description ?description ;
-        saa:language ?language ;
-        saa:mentionsNotary/pnv:hasName/pnv:literalName ?notary ;
-        saa:inventoryNumber "2408" ;
-        saa:urlScan ?scan .
-  
-  OPTIONAL { ?deed saa:mentionsRegisteredName/pnv:literalName ?person . }
-  OPTIONAL { ?deed saa:mentionsLocation/rdfs:label ?location . }
-  
-  BIND(CONCAT(STRAFTER(STR(?scan), 'Scan/'), '.jpg') AS ?image)
-  
-} LIMIT 100000
-```
-
-For getting the types (persons/locations) from the index records
-```SPARQL
-PREFIX prov: <http://www.w3.org/ns/prov#>
-PREFIX oa: <http://www.w3.org/ns/oa#>
-PREFIX as: <http://www.w3.org/ns/activitystreams#>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX schema: <http://schema.org/>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX ga: <https://data.goldenagents.org/ontology/>
-PREFIX saa: <https://data.goldenagents.org/datasets/SAA/ontology/> 
-PREFIX pnv: <https://w3id.org/pnv#>
-
-SELECT DISTINCT ?image ?type ?label ?coords WHERE {
-
-  ?inventorySAA saa:inventoryNumber "2408" .
-  
-  ?inventorySAA saa:hasParts/saa:hasDigitalRepresentation/foaf:depiction ?url .
-  
-  ?indexRecord saa:urlScan ?scan .
-  ?scan saa:url ?url .
-  
-  BIND(CONCAT(STRAFTER(STR(?url), '#'),'.jpg') AS ?image) .
-  
-  ?annotation oa:hasTarget [ oa:hasSource ?scan ;
-                             oa:hasSelector/rdf:value ?coords ] ;
-              ^prov:wasDerivedFrom [ a ?type] ;
-              oa:hasBody/rdfs:label ?label .
-
-} ORDER BY ?image
-```
-
-Getting all the items
-```SPARQL
-PREFIX prov: <http://www.w3.org/ns/prov#>
-PREFIX sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>
-PREFIX oa: <http://www.w3.org/ns/oa#>
-PREFIX saa: <https://data.goldenagents.org/datasets/SAA/ontology/>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-
-SELECT DISTINCT * WHERE {
-  ?inventory saa:documentedIn/saa:inventoryNumber "2408" ;
-             saa:content ?item .
-  
-  ?item rdfs:label ?label ;
-        prov:wasDerivedFrom ?annotation .
-  
-  BIND(STRAFTER(STR(?annotation), 'Scan/') AS ?annoid)
-  
-       OPTIONAL { ?item saa:room ?room . }
-  	   OPTIONAL { ?item saa:iconclass ?iconclass . }
-      OPTIONAL { ?item  saa:subject ?subject . }
-      OPTIONAL { ?item saa:workType ?type . }
-      OPTIONAL { ?item saa:identifier ?identifier . }
-      OPTIONAL { ?item saa:transcription ?transcription . }
-      OPTIONAL { ?item saa:artist ?artist . }
-  	OPTIONAL { ?item saa:valuation ?valuation . }
-  
-}
-```
+## Contact
+l.vanwissen@uva.nl
